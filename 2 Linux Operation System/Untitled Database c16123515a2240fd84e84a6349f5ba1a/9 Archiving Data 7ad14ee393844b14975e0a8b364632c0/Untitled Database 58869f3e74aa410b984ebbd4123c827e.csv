@@ -1,0 +1,10 @@
+﻿Opsi panjang,Opsi pendek,deskripsi
+--directory dir,C,Changes to directory dir before performing operations
+--same-permissions,p,Preserves original permissions
+--verbose,v,"Lists all files read or extracted. When this flag is used along with –list, the file sizes, ownership, and time stamps are displayed."
+--verify,W,Verifies the archive after writing it
+--exclude file,—,Excludes file from the archive
+--exclude=pattern,X,"Exclude files, given as a PATTERN"
+--gzip or --gunzip,z,Processes an archive through gzip
+--bzip2,j,Processes an archive through bzip2
+--xz,J,Processes an archive through xz

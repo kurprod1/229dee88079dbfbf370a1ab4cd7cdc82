@@ -1,0 +1,16 @@
+﻿/,"Dibaca root, merupakan direktori utama sistem Linux. Ibaratnya seperti C: pada windows."
+/bin,"Direktori yang berisi binary files yang dapat dieksekusi oleh users system. Direktori ini menghandle perintah-perintah standar GNU/Linux diantaranya ls, cp, mv dan beberapa lainnya."
+/boot,Direktori yang berisikan file-file yang dibutuhkan saat proses booting termasuk didalamnya adalah kernel image GNU/Linux.
+/dev,"Direktori yang merepresentasikan/mewakili device hardware. Dalam GNU/Linux everything is files, dimana hard disk, cdrom, dll itu dianggap sebagai file. Semua device hardware komputer direpresentasikan sebagai file pada direktori ini."
+/etc,Direktori yang berisi file-file konfigurasi system dan layanan. File-file konfigurasi ini dibutuhkan oleh paket-paket lain untuk menjaga perilaku system.
+/home,Merupakan home direktori atau area kerja dari masing-masing user GNU/Linux kecuali user root(super user). User-user biasa menimpan data disini.
+/lib,Merupakan direktori file-file library GNU/Linux yang mendukung binary files baik yang berada didirektori /bin maupun /sbin.
+/mnt,Direktori yang disiapkan untuk mounting point device storage seperti flashdisk dan harddisk eksternal.
+/media,"Direktori memounting/mengaitkan media removable storages seperti harddisk eksternal, floppy disk, cdrom/dvdrom, flashdisk, digital kamera maupun media lainnya. Mirip seperti /mnt."
+/opt,Direktori tempat instalasi paket yang diluar dari repository resmi.
+/proc,"Merupakan direktori yang unik yang dinamis karena direktori ini berisi virtual file system yang menyediakan akses informasi cpu, ram, kernel, suhu, dll secara realtime."
+/root,Home direktori khusus super user (user root). Direktori ini sengaja dipisahkan dari direktori home user biasa di /home untuk menghandle jika partisi /home gagal di mounting maka system secara keseluruhan dapat diselamatkan oleh root. /root dibaca slash root.
+/sbin,Direktori ini pada prinsipnya sama dengan direktori /bin yang berisi file-file binary. Namun direktori /sbin ini hanya dapat diakses oleh user root dalam kondisi sistem normal. Users biasa tidak memiliki akses untuk menjalankan binary files di direktori ini
+/tmp,Direktori yang berisi temporary files artinya file-file yang sifatnya hanya dibutuhkan sementara dan akan hilang setiap komputer booting. Direktori ini dapat diakses oleh semua users sistem.
+/usr,"Bisa dikatakan sebagai direktori utama dibawah main direktori tempat diletakkannya file- file program aplikasi, dokumentasi, source kernel dan x-window system dari distribusi GNU/Linux yang digunakan. Mirip seperti Program Files pada Windows."
+/var,"Direktori yang diperuntukkan menyimpan file-file yang akan terus membesar ukurannya. Biasa digunakan untuk menyimpan file-file log system, file email, file-file web, file database."
