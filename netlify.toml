@@ -1,4 +1,4 @@
 [build]
     base = "_book/"
     publish = "_book/"
-    command = "npm install honkit --save && honkit build"
+    command = "npm -v"
