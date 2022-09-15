@@ -1,4 +1,4 @@
 [build]
     base = "_book/"
     publish = "_book/"
-    command = "npm -v"
+    command = "npx -v"
