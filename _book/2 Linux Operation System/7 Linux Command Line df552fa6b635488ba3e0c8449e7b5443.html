@@ -1,0 +1,869 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>7 Linux Command Line · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html" />
+    
+    
+    <link rel="prev" href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../0 Introduction/">
+            
+                <a href="../0 Introduction/">
+            
+                    
+                    0 Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                <a href="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                <a href="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                    
+                    2 Membuat Objektif Belajar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                <a href="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                    
+                    3 Your Big Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                <a href="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                    
+                    4 Newbie in Tech Read This!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                <a href="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                    
+                    5 Hmmm… DevOps
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../1 Network Overview/">
+            
+                <a href="../1 Network Overview/">
+            
+                    
+                    1 Network Overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                <a href="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                <a href="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                <a href="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                    
+                    3 Networking Fundamental
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                <a href="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                    
+                    4 OSI dan TCP IP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                <a href="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                    
+                    5 IP Address
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                <a href="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                    
+                    6 Menggambar dan Membaca Topologi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                <a href="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                    
+                    7 Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    2 Linux Operation System
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                <a href="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                <a href="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                <a href="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                    
+                    3 Pengenalan Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="4 Mengenal Linux (GNU Linux">
+            
+                <span>
+            
+                    
+                    4 Mengenal Linux (GNU Linux)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                <a href="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                    
+                    5 Vagrant Virtualization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                <a href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                    
+                    6 Linux File Hierarchy Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.7" data-path="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                <a href="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                    
+                    7 Linux Command Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                <a href="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                    
+                    8 Text & File Manipulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                <a href="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                    
+                    9 Archiving Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                <a href="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                    
+                    10 Users & Groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                <a href="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                    
+                    11 Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                <a href="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                    
+                    12 Package Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                <a href="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                    
+                    13 Service Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                <a href="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                    
+                    14 Roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                <a href="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                    
+                    15 Setup Webserver & Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                <a href="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                    
+                    16 Shell Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                <a href="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                    
+                    17 Membuat Automasi Setup Webserver dengan Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" data-path="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                <a href="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                    
+                    18 Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >7 Linux Command Line</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="7-linux-command-line">7. Linux Command Line</h1>
+<p>Created: June 23, 2022 8:51 PM</p>
+<h1 id="apa-itu-command-line"><strong>Apa itu Command Line?</strong></h1>
+<p>Sebuah server dituntut agar beban kerjanya dapat se-ringan dan se-aman mungkin. Oleh karena itu biasanya hampir semua Server pasti tidak memiliki tampilan grafis untuk meringankan beban RAM dan CPU. Semua hal yang ingin dilakukan di server akan digantikan menggunakan perintah-perintah yang diketik, atau biasa disebut sebagai command line.</p>
+<p>Aktivitas sesimpel membuat folder yang tinggal klik saja di komputer Windows, di Linux (dalam konteks server) harus dilakukan dengan mengetikkan sebuah command.</p>
+<p>Seorang DevOps yang akan selalu mengelola server Linux wajib terbiasa dengan command line. Untuk konfigurasi dan setup server yang akan dikelola, maupun untuk membuat berbagai macam scripting untuk otomasi nantinya.</p>
+<h2 id="remote-linux"><strong>Remote Linux</strong></h2>
+<p>Pada bagian ini kita akan banyak menggunakan GNU/Linux, maka sebaiknya kalian menggunakan sistem operasi linux yang sudah terinstall di komputer.</p>
+<p>Cara menggunakan linux yang sudah disediakan adalah dengan me-remote linux tersebut agar dapat langsung kita gunakan, untuk melakukan remote server pada linux tersebut kalian harus download terlebih dahulu aplikasi putty di link berikut.</p>
+<p><a href="https://www.putty.org/" target="_blank">https://www.putty.org/</a></p>
+<p>Install aplikasi tersebut sampai selesai, setelah itu buka aplikasi Putty untuk melakukan akses ke ubuntu tersebut, setelah itu isikan username dan ip public dari ubuntu yang akan kita remote. Username dan IP Public sudah diberikan sebelumnya melalui chat slack</p>
+<p><img src="https://lh6.googleusercontent.com/3DWz1t_9JjCbO1wv5cDx5eDDDLsP7cSzbv9Mg1IUnGQJwa0mAb_S5h5BrkRoKJ0KnwY-e9Q1WkWIgyht9OL8dPo02bA4Ok-G0d9JKoPEUHG_lL3pTOb76aejhCFdhMq7oXI5H1QmbeWZUd1XVA" alt="https://lh6.googleusercontent.com/3DWz1t_9JjCbO1wv5cDx5eDDDLsP7cSzbv9Mg1IUnGQJwa0mAb_S5h5BrkRoKJ0KnwY-e9Q1WkWIgyht9OL8dPo02bA4Ok-G0d9JKoPEUHG_lL3pTOb76aejhCFdhMq7oXI5H1QmbeWZUd1XVA"></p>
+<p>Sebelum klik open, pilih terlebih dahulu menu Auth yang ada di categori menu connection &gt; SSH &gt; Auth. Klik tombol browse dan cari file keypair.ppk yang sudah diberikan sebelumnya.</p>
+<p><img src="https://lh5.googleusercontent.com/9XXUr87Dy3mRAoGba4LnaLBxY4BX19rdLnoEuSDw3P2Pj-2p1n2rxfj5C5n1Bdp_k24dDNJIIXiNf0h9m7jp7eqUT_7uwUvUj4JdYurRpn6juXKCxADKkpQi9OyWjPTGmCBqIizBFV28eW0hAw" alt="https://lh5.googleusercontent.com/9XXUr87Dy3mRAoGba4LnaLBxY4BX19rdLnoEuSDw3P2Pj-2p1n2rxfj5C5n1Bdp_k24dDNJIIXiNf0h9m7jp7eqUT_7uwUvUj4JdYurRpn6juXKCxADKkpQi9OyWjPTGmCBqIizBFV28eW0hAw"></p>
+<p>Klik open lalu kita akan diarahkan ke pop out security alert, pilih yes untuk melanjutkan.</p>
+<p><img src="https://lh5.googleusercontent.com/IlnSgQoS6YVtgL-PkeP_0TaYlWNA9fQTv4reQC6SPNuSmJBSXRAIX5-Vaq27IKSfTlO15VMkjEfwKkCvJPfU3xwwZctp9ZnDUObFLz_O4yUWSPXuhT8CfoGmcbXekchwJt8lI4W81L1CU_VAeA" alt="https://lh5.googleusercontent.com/IlnSgQoS6YVtgL-PkeP_0TaYlWNA9fQTv4reQC6SPNuSmJBSXRAIX5-Vaq27IKSfTlO15VMkjEfwKkCvJPfU3xwwZctp9ZnDUObFLz_O4yUWSPXuhT8CfoGmcbXekchwJt8lI4W81L1CU_VAeA"></p>
+<p>Dengan begitu kita sudah selesai remote login ke ubuntu yang akan kita gunakan, dan hasilnya adalah sebagai berikut ini.</p>
+<p><img src="https://lh3.googleusercontent.com/vTNBEjmQJMb2fs5NBWJVVUus4P34G2zod1Lcw8xl873Ym1Y3UKEd0ddo-WllOk8k9xMFBUm3QTXxrrSwyeOTCRkjO_OzwVTlE4HaSwor00z8fM_zapZzF5f3k9xsrQJh9Hzn0Q6O_t-PZAdAzg" alt="https://lh3.googleusercontent.com/vTNBEjmQJMb2fs5NBWJVVUus4P34G2zod1Lcw8xl873Ym1Y3UKEd0ddo-WllOk8k9xMFBUm3QTXxrrSwyeOTCRkjO_OzwVTlE4HaSwor00z8fM_zapZzF5f3k9xsrQJh9Hzn0Q6O_t-PZAdAzg"></p>
+<h2 id="belajar-login-logout"><strong>Belajar Login Logout</strong></h2>
+<p>Saat kita berhasil masuk ke sistem Linux, maka pertama kali yang kita lihat adalah layar hitam dengan tulisan :</p>
+<pre><code class="lang-bash">cilsy login:
+Password:
+</code></pre>
+<p>Itu adalah tampilan prompt login default dari Linux. Kita tidak akan bisa melakukan apapun di Linux sebelum kita berhasil login. Sehingga yang pertama harus dilakukan adalah login sesuai user masing-masing yang sudah didapatkan saat instalasi maupun saat kita membuat server di AWS. Misalnya disini user yang digunakan adalah rizal :</p>
+<pre><code class="lang-bash">cilsy login: rizal
+Password:
+rizal@cilsy:~$
+</code></pre>
+<p>Perhatikan tanda <strong>$</strong>, tanda tersebut mewakili jenis user yang digunakan login, yaitu user biasa. Bukan user root (administrator).</p>
+<p>Sekarang coba ketikkan perintah berikut :</p>
+<pre><code class="lang-bash">rizal@cilsy:~$ sudo -i
+root@cilsy :~<span class="hljs-comment">#</span>
+</code></pre>
+<p>Sudo -i adalah perintah untuk masuk ke mode root atau mode administrator. Setelah masuk mode root, tanda <strong>$</strong> berubah menjadi <strong>#</strong>. Landing direktori kedua user diatas juga berbeda berdasarkan home direktorinya masing-masing.</p>
+<p><code>User biasa berada di : /home/rizal</code></p>
+<p><code>User root berada di : /root</code></p>
+<p>Perintah sudo sendiri membuat kitaa dapat bebas melakukan apapun di sistem kita. Hampir semua konfigurasi dan command-command yang terkait administrasi server mewajibkan kita untuk masuk mode root terlebih dahulu menggunakan perintah sudo.</p>
+<p>Lalu bagaimana jika kita ingin keluar dari sistem Linux kita? Gunakan perintah logout atau exit. Bisa juga dengan menekan kombinasi tombol ctrll+d.</p>
+<pre><code class="lang-bash">rizal@cilsy:~$ <span class="hljs-built_in">logout</span>
+rizal@cilsy:~$ <span class="hljs-built_in">exit</span>
+</code></pre>
+<h1 id="perintah-navigasi"><strong>Perintah Navigasi</strong></h1>
+<p>Perintah navigasi digunakan untuk menjelajahi direktori-direktori yang ada di Linux. Sama seperti ketika kita melakukan pindah-pindah folder dengan mengklik-klik di komputer Windows.</p>
+<p>Berikut merupakan beberapa perintah navigasi pada GNU/Linux.</p>
+<p><strong>pwd</strong>     : print working directory, untuk melihat alamat direktori kita berada saat ini</p>
+<p><strong>cd</strong>     : change direktory, untuk berpindah folder</p>
+<p><strong>ls</strong>     : list, melihat daftar isi direktori saat ini</p>
+<p>Contoh dari penggunaan perintah navigasi bisa dilakukan dengan cara berikut.</p>
+<p><strong>pwd</strong>     : untuk melihat posisi kita berada sekarang</p>
+<ul>
+<li><strong>pwd</strong></li>
+</ul>
+<p><strong>cd</strong>     : untuk berpindah direktori</p>
+<ul>
+<li><strong>cd /home/devops</strong> (jika /home/devops berada diluar direktori sekarang)</li>
+<li><strong>cd home/devops</strong> (jika home berada didalam direktori sekarang)</li>
+<li><strong>cd ..</strong> (kembali satu tingkat ke direktori sebelumnya)</li>
+<li><strong>cd –</strong> (kembali ke direktori yang dimasuki sebelumnya)</li>
+<li><strong>cd</strong> (kembali ke home direktori)</li>
+</ul>
+<p><strong>ls</strong>    : untuk melihat isi folder</p>
+<ul>
+<li><strong>ls</strong> (jika ingin melihat isi direktori tempat berada sekarang)</li>
+<li><strong>ls /home/devops</strong> (Melihat isi dari direktori devops)</li>
+</ul>
+<h1 id="perintah-pengelolaan-direktori--file"><strong>Perintah pengelolaan Direktori &amp; File</strong></h1>
+<p>Perintah ini digunakan untuk aktifitas dasar dalam pengelolaan file dan folder di Linux. Yaitu untuk membuat file, membuat folder, mengkopi, cut-paste, menghapus, hingga merubah nama.</p>
+<p>Berikut merupakan beberapa perintah pengelolaan direktori pada GNU/Linux.</p>
+<p><strong>cp</strong>        : copy, intuk menyalin berkas atau folder (seperti copy paste)</p>
+<p><strong>mv</strong>         : move, untuk memindahkan atau mengganti nama (seperti cut-paste)</p>
+<p><strong>rm</strong>         : remove, untuk menghapus file atau folder</p>
+<p><strong>mkdir</strong>        : make directory, untuk membuat folder</p>
+<p><strong>touch</strong>        : untuk membuat file</p>
+<p>Contoh dari penggunaan perintah Direktori bisa dilakukan dengan cara berikut.</p>
+<p><strong>mkdir</strong> : make directory, membuat folder</p>
+<ul>
+<li><strong>mkdir folderbaru</strong> (folder yang dibuat ingin didalam direktori sekarang)</li>
+<li><strong>mkdir /tmp/folderbaru</strong> (folder yang dibuat ingin diluar direktori sekarang)</li>
+</ul>
+<p><strong>touch</strong> : membuat file</p>
+<ul>
+<li><strong>touch filebaru</strong> (file yang dibuat ingin didalam direktori sekarang)</li>
+<li><strong>touch /tmp/filebaru</strong> (file yang dibuat ingin diluar direktori sekarang)</li>
+</ul>
+<p><strong>cp</strong>    : copy, menyalin berkas atau folder</p>
+<ul>
+<li><strong>cp test1.txt test2.txt</strong> (menyalin file dalam direktori ke dalam direktori)</li>
+<li><strong>cp test1.txt /tmp/test2.txt</strong> (menyalin file dalam direktori ke luar direktori)</li>
+<li><strong>cp /tmp/test2.txt test3.txt</strong> (menyalin file luar direktori ke dalam direktori)</li>
+<li><strong>cp /tmp/test2.txt /tmp/test3.txt</strong> (menyalin file luar ke luar direktori)</li>
+<li><strong>cp -R /tmp/namafolder /home/namafolder</strong> (untuk menyalin direktori yang ada isinya)</li>
+</ul>
+<p><strong>mv</strong>    : move, memindahkan atau mengganti nama (seperti cut-paste)</p>
+<ul>
+<li><strong>mv test1.txt test2.txt    (mengganti nama test1 menjadi test2)</strong></li>
+<li><strong>mv /tmp/test2.txt /home/rizal/test3.txt (memindahkan file test2 lalu merubah namanya menjadi test3)</strong></li>
+</ul>
+<p><strong>rm</strong>    : remove, menghapus berkas atau folder</p>
+<ul>
+<li><strong>rm namabenar.txt (menghapus file namabenar.txt)</strong></li>
+<li><strong>rm -R namafolder (untuk menghapus direktori)</strong></li>
+</ul>
+<h1 id="perintah-editing-file"><strong>Perintah Editing File</strong></h1>
+<p>Perintah ini sama seperti kegiatan kita dalam mengedit dan membuat file teks di Windows menggunakan notepad. Perintah ini akan sangat sering kita gunakan, karena hampir seluruh file konfigurasi di Linux nantinya akan kita edit-edit, kita baca, kita modifikasi dengan perintah ini.</p>
+<p>Berikut merupakan beberapa perintah file editing pada GNU/Linux.</p>
+<p><strong>nano</strong>    : GNU nano, text editor berbasis konsol yang mudah dioperasikan</p>
+<p><strong>vim</strong>     : vim, text editor berbasis konsol yang mudah dioperasikan</p>
+<p>Contoh penggunaannya :</p>
+<p><strong>nano/vim</strong> = text editor berbasis konsol yang mudah dioperasikan</p>
+<ul>
+<li><strong>vim /home/rizal/test1.txt (mengedit file diluar direktori)</strong></li>
+<li><strong>nano rizal/test1.txt (mengedit file di direktori kita berada sekarang)</strong></li>
+<li><strong>nano test1.txt (mengedit file didalam direktori kita berada)</strong></li>
+</ul>
+<p>Kita perlu mengingat beberapa kombinasi dasar saat pengoperasian text editor ini. Yaitu pada nano ada kombinasi Ctrl+X untuk menutup program (exit) dan Ctrl+O untuk menyimpan (save). Sedangkan untuk vim, sebelum menulis kita perlu mengetik karakter i (insert) lalu untuk menyimpan kita gunakan kombinasi Esc+:wq (write and quit). Adapun sudo diperlukan setiap pengguna menyunting berkas pada area sistem seperti pada /etc.</p>
+<h1 id="perintah-bantuan-manual-guide"><strong>Perintah Bantuan Manual Guide</strong></h1>
+<p>Pada dasarnya, di Linux kita sama sekali tidak perlu menghafal seluruh perintah yang ada. Ketika kita membutuhkan informasi detail terhadap suatu command, opsi-opsi yang digunakan apa saja, kita dapat memanfaatkan manual guide yang sudah disediakan pada setiap perintah.</p>
+<p>Berikut merupakan beberapa perintah untuk membaca bantuan manual guide pada GNU/Linux :</p>
+<p><strong>man</strong>            : manual, perintah untuk membuka manual guide lengkap dari suatu command</p>
+<ul>
+<li><strong>-help</strong>    : opsi untuk melihat manual singkat dari suatu command</li>
+</ul>
+<p>Contoh penggunaan :</p>
+<ul>
+<li><strong>cp --help    (melihat manual guide singkat dari perintah cp)</strong></li>
+<li><strong>man cp    (melihat manual guide lengkap dari perintah cp)</strong></li>
+<li><strong>nano --help (melihat manual guide singkat dari perintah nano)</strong></li>
+<li><strong>man nano (melihat manual guide lengkap dari perintah nano)</strong></li>
+</ul>
+<p>Informasi yang disediakan oleh manual guide tersebut biasanya sudah sangat mewakili dan sangat bisa dipraktekkan. Namun jika masih mengalami kesulitan, jangan lupakan bahwa kita selalu bisa mencarinya di google. Cukup mengetikkan “cp command practice” atau “nano command linux practice” biasanya akan muncul banyak artikel yang membahasnya.</p>
+<h1 id="exercise"><strong>Exercise</strong></h1>
+<p><strong>Teori</strong></p>
+<ol>
+<li>Kenapa kita perlu mempelajari perintah dasar command line?</li>
+</ol>
+<p><strong>Praktek</strong></p>
+<p>Waktu pengerjaan : 15 menit</p>
+<p>Masing-masing peserta praktekkan soal berikut ini di kolom terminal Linux masing-masing sambil melakukan sharing screen agar instruktur dapat melihat hasilnya.</p>
+<ol>
+<li>Pertama-tama login sebagai user masing-masing.</li>
+<li>Pindahlah ke direktori /tmp.</li>
+<li>Buatlah 1 buah file bernama test1.txt yang berisi “Sekolah DevOps Cilsy” didalam folder anda berada sekarang.</li>
+<li>Buatlah 1 folder bernama latihan didalam folder Anda berada sekarang.</li>
+<li>Kopikan file test1.txt tersebut ke dalam folder latihan yang barusan anda buat dengan nama test2.txt.</li>
+<li>Masih dalam posisi Anda sekarang berada (jangan pindah folder), lakukan cut-paste file test2.txt yang ada didalam folder latihan ke folder /home/ dengan nama baru test3.txt.</li>
+<li>Sekarang pindahlah ke home direktori anda lagi.</li>
+<li>Hapuslah file test1.txt yang ada di /tmp tanpa anda pindah folder ke /tmp terlebih dahulu.</li>
+<li>Hapuslah folder latihan yang ada di /tmp tanpa anda pindah folder ke /tmp terlebih dahulu.</li>
+<li>Kumpulkan hasilnya ke instruktur.</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html" class="navigation navigation-prev " aria-label="Previous page: 6 Linux File Hierarchy Structure">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html" class="navigation navigation-next " aria-label="Next page: 8 Text & File Manipulation">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"7 Linux Command Line","level":"1.4.7","depth":2,"next":{"title":"8 Text & File Manipulation","level":"1.4.8","depth":2,"path":"2 Linux Operation System/8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.md","ref":"2 Linux Operation System/8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.md","articles":[]},"previous":{"title":"6 Linux File Hierarchy Structure","level":"1.4.6","depth":2,"path":"2 Linux Operation System/6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.md","ref":"2 Linux Operation System/6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"2 Linux Operation System/7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.md","mtime":"2022-09-15T11:22:22.338Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2022-09-15T12:08:18.169Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

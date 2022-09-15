@@ -1,0 +1,1140 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>16 Shell Scripting · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html" />
+    
+    
+    <link rel="prev" href="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../0 Introduction/">
+            
+                <a href="../0 Introduction/">
+            
+                    
+                    0 Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                <a href="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                <a href="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                    
+                    2 Membuat Objektif Belajar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                <a href="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                    
+                    3 Your Big Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                <a href="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                    
+                    4 Newbie in Tech Read This!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                <a href="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                    
+                    5 Hmmm… DevOps
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../1 Network Overview/">
+            
+                <a href="../1 Network Overview/">
+            
+                    
+                    1 Network Overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                <a href="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                <a href="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                <a href="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                    
+                    3 Networking Fundamental
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                <a href="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                    
+                    4 OSI dan TCP IP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                <a href="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                    
+                    5 IP Address
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                <a href="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                    
+                    6 Menggambar dan Membaca Topologi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                <a href="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                    
+                    7 Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    2 Linux Operation System
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                <a href="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                <a href="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                <a href="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                    
+                    3 Pengenalan Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="4 Mengenal Linux (GNU Linux">
+            
+                <span>
+            
+                    
+                    4 Mengenal Linux (GNU Linux)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                <a href="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                    
+                    5 Vagrant Virtualization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                <a href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                    
+                    6 Linux File Hierarchy Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                <a href="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                    
+                    7 Linux Command Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                <a href="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                    
+                    8 Text & File Manipulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                <a href="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                    
+                    9 Archiving Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                <a href="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                    
+                    10 Users & Groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                <a href="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                    
+                    11 Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                <a href="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                    
+                    12 Package Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                <a href="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                    
+                    13 Service Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                <a href="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                    
+                    14 Roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                <a href="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                    
+                    15 Setup Webserver & Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.16" data-path="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                <a href="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                    
+                    16 Shell Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                <a href="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                    
+                    17 Membuat Automasi Setup Webserver dengan Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" data-path="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                <a href="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                    
+                    18 Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >16 Shell Scripting</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="16-shell-scripting">16. Shell Scripting</h1>
+<p>Created: June 27, 2022 2:52 PM</p>
+<h1 id="apa-itu-shell-"><strong>Apa itu Shell ?</strong></h1>
+<p>Shell adalah sebuah program tempat dimana pengguna dapat mengetikkan perintah-perintah yang diinginkan. Shell juga memungkinkan pengguna untuk menyusun sekumpulan perintah ini pada sebuah atau beberapa file untuk dieksekusi sebagai program.</p>
+<p><img src="https://lh5.googleusercontent.com/UPagTC-bHf_v56nh9WJEKP4vGOgNLf9fMdapaqgIZDMrUXtBN8bjd9xA0VtnaCBg-vNoNWay78WjODxtIZ1kyQcahrxmsExs8Wi78V00Gfg-JdXNeXza-FMyfqCu4UFOQAH5RAkZ6VKsI3Ef4g" alt="*Ilustrasi Shell*"></p>
+<p><em>Ilustrasi Shell</em></p>
+<p>Shell  memiliki berbagai macam jenis, yang diantaranya adalah Bourne shell(sh), C shell(csh), Korn shell(ksh), Bourne again shell(bash), Dsb.</p>
+<p>Masing - masing shell mempunyai kelebihan dan kekurangan yang mungkin lebih didasarkan pada kebutuhan pemakai yang makin hari makin meningkat. Untuk modul yang digunakan di Sekolah DevOps Cilsy, shell yang digunakan adalah bash shell, yang merupakan pengembangan dari Bourne shell(sh) dan mengambil beberapa feature (keistimewaan) dari C shell serta Korn shell. Bash shell merupakan shell yang cukup banyak digunakan pemakai Linux karena kemudahan serta banyaknya fasilitas perintah yang disediakan.</p>
+<h1 id="pemrograman-shell"><strong>Pemrograman Shell</strong></h1>
+<p>Pemrograman Shell itu sendiri adalah teknik untuk menyusun atau mengelompokkan beberapa perintah shell menjadi kumpulan perintah yang melakukan tugas tertentu sesuai tujuan kita sebagai penyusunnya. Kelebihan shell di Linux dibanding sistem operasi lain adalah bahwa shell di linux memungkinkan kita untuk menyusun serangkaian perintah ini seperti halnya bahasa pemrograman. Yaitu melakukan proses I/O, menyeleksi, logika-logika if, looping, membuat fungsi, dsb seperti proses - proses yang umumnya dilakukan oleh suatu bahasa pemrograman. Dengan kata lain Shell di Linux membuat kita dapat membuat sebuah program seperti halnya bahasa pemrograman. Untuk pemrograman shell ini sendiri kita sering menyebutnya sebagai Shell Scripting.</p>
+<h1 id="perintah-dasar-shell"><strong>Perintah Dasar Shell</strong></h1>
+<p>Sebelum mempelajari pemrograman Shell Scripting di Linux sebaiknya kita telah mengetahui dan terbiasa menggunakan berbagai perintah-perintah dasar Shell di Linux. Pada dasarnya perintah dasar Shell yang sering digunakan adalah adalah seluruh command-command dan konsep yang sudah kita pelajari pada bagian sebelumnya. Sehingga jika kita sudah memahami dan terbiasa dengan command-command Linux tersebut, kita akan jauh lebih mudah dalam melakukan pemrograman Shell Scripting ini.</p>
+<h1 id="bash-scripting-sederhana"><strong>Bash Scripting Sederhana.</strong></h1>
+<p>Sekarang kita coba membuat script baru dengan mengetikan perintah dibawah ini pada prompt shell :</p>
+<pre><code class="lang-bash">![ubuntu@linux$]<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Script shell pertamaku di linux&quot;</span>
+Script shell pertamaku di linux
+</code></pre>
+<p>String yang diapit tanda kutip ganda (double quoted) akan ditampilkan pada layar kita, echo adalah statement (perintah) built-in bash yang berfungsi menampilkan informasi ke standard output yang defaultnya adalah layar.</p>
+<p>Jika kita ingin mengulangi perintah sebelumnya, kita tidak perlu mengerikan perintahnya kembali, cukup dengan fasilitas history dengan menggunakan tombol panah (atas bawah) kita sudah dapat mengulangi perintah tersebut.</p>
+<p>Bagaimana jika perintah yang kita masukan berupa kumpulan perintah yang cukup banyak? tentunya jika kita harus mengetikkan satu-persatu secara terus menerus pada prompt shell akan sangat merepotkan. Untuk itulah sebaiknya perintah-perintah yang banyak tersebut kita simpan ke sebuah file. Dimana file ini dapat kita panggil/eksekusi kapanpun diinginkan.</p>
+<p>Kita dapat melakukannya dengan membuat sebuah file misalnya bernama tes dengan perintah nano/vim, lalu didalam file tersebut isi dengan script berikut :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Hello, apa khabar&quot;</span>
+</code></pre>
+<p>Simpan file tersebut, lalu ubah permission file test tesebut agar memiliki hak akses untuk execute (x) menggunakan perintah chmod.</p>
+<pre><code class="lang-bash">![ubuntu@linux$]chmod 755 tes
+</code></pre>
+<p>Selanjutnya adalah jalankan file tadi dengan perintah berikut :</p>
+<pre><code class="lang-bash">![ubuntu@linux$]./tes
+</code></pre>
+<p>Tanda #! pada /bin/bash dalam script tes adalah perintah yang diterjemahkan ke kernel linux untuk mengeksekusi path yang disertakan dalam hal ini program bash pada direktory /bin, sebenarnya tanpa mengikutkan baris tersebut anda tetap dapat mengeksekusi script bash, dengan catatan bash adalah shell aktif. atau dengan mengetikkan bash pada prompt shell.</p>
+<pre><code class="lang-bash">![ubuntu@linux$]bash tes
+</code></pre>
+<p>Selanjutnya kita coba membuat script shell yang menampilkan informasi berikut :</p>
+<ol>
+<li>Waktu System</li>
+<li>Info tentang komputer</li>
+<li>Jumlah pemakai yang sedang login di system</li>
+</ol>
+<p>Berikut merupakan contoh bash scriptnya :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment">#myinfo</span>
+<span class="hljs-comment">#membersihkan tampilan layar</span>
+clear
+<span class="hljs-comment">#menampilkan informasi</span>
+<span class="hljs-built_in">echo</span> -n <span class="hljs-string">&quot;Waktu system   :&quot;</span>; date
+<span class="hljs-built_in">echo</span> -n <span class="hljs-string">&quot;Anda           :&quot;</span>; whoami
+<span class="hljs-built_in">echo</span> -n <span class="hljs-string">&quot;Banyak pemakai :&quot;</span>; who | wc -l
+</code></pre>
+<p>Simpan file tersebut dengan nama “myinfo” selanjutnya jangan lupa untuk merubah permission file myinfo agar dapat diakses oleh kita :</p>
+<pre><code class="lang-bash">![ubuntu@linux$]chmod 755 myinfo
+![ubuntu@linux$]./myinfo
+Waktu system   : Wed Jan 25  22:57:15 BORT 2022
+Anda           : ubuntu
+Banyak pemakai : 2
+</code></pre>
+<h1 id="pemakaian-variable"><strong>Pemakaian Variable</strong></h1>
+<p>Secara sederhana variabel adalah ibarat sebuah kotak penyimpanan yang dapat menyimpan suatu isi atau nilai. Isi atau nilai dapat berupa bermacam-macam. Bisa berupa angka, berupa huruf, kalimat, command, dll. Variable pada shell scripting sifatnya juga sama dengan variable pada bahasa pemrograman pada umumnya. Dalam dokumentasi ini kita membagi variabel menjadi 2 kategori, yaitu Positional Parameter Variable dan User Defined Variable. Sebenarnya masih ada 1 kategori variable lain, yaitu Environment Variable, namun variable ini belum terlalu perlu untuk dipahami di awal-awal pembelajaran Shell Scripting ini.</p>
+<h2 id="positional-parameter"><strong><em>Positional Parameter</em></strong></h2>
+<p>Positional Parameter merupakan variabel yang digunakan shell untuk menampung argumen yang diberikan pada saat shell dijalankan. Lebih jelasnya dapat kita lihat pada bagian script berikut.</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment">#argumen1</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-variable">$1</span> adalah salah satu <span class="hljs-variable">$2</span> populer di <span class="hljs-variable">$3</span>
+</code></pre>
+<p>Hasilnya adalah sebagai berikut.</p>
+<pre><code class="lang-bash">![ubuntu@linux$]./argumen1 bash shell linux
+bash adalah salah satu shell populer di linux
+</code></pre>
+<p>Ada 3 argumen yang disertakan pada script argumen1 yaitu bash, shell, dan linux, masing2 argumen akan disimpan pada variabel 1,2,3 sesuai posisinya.</p>
+<h2 id="user-defined-variable"><strong><em>User Defined Variable</em></strong></h2>
+<p>User Defined Variable adalah variabel yang didefinisikan sendiri oleh pembuat script sesuai dengan kebutuhannya. Beberapa hal yang perlu diperhatikan dalam mendefenisikan User Defined Variable adalah sebagai berikut.</p>
+<ol>
+<li>Dimulai dengan huruf atau underscore.</li>
+<li>Hindari pemakaian spesial karakter seperti *,$,#,dll.</li>
+<li>Bash bersifat case sensitive, yaitu antara huruf besar dan kecil dianggap berbeda, antara huruf a berbeda dengan A, nama berbeda dengan Nama, NaMa, dsb.</li>
+</ol>
+<p>Untuk menentukan nilai variabel gunakan operator assignment (pemberi nilai) &quot;=&quot;. Bisa menggunakan contoh script berikut ini :</p>
+<pre><code class="lang-bash">myos=<span class="hljs-string">&quot;linux&quot;</span>        <span class="hljs-comment">#double-quoted</span>
+nama=<span class="hljs-string">&apos;pinguin&apos;</span>      <span class="hljs-comment">#single-quoted</span>
+hasil=`ls -l`;      <span class="hljs-comment">#back-quoted</span>
+angka=12
+</code></pre>
+<p>Kalau kita perhatikan ada 3 tanda kutip yang kita gunakan untuk memberikan nilai string ke suatu variabel, masing-masing tanda kutip itu memiliki sedikit perbedaan.</p>
+<p>Dengan kutip ganda (double-quoted), bash mengizinkan kita untuk menyisipkan variabel di dalamnya. Contohnya :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+nama=<span class="hljs-string">&quot;pinguin&quot;</span>
+kata=<span class="hljs-string">&quot;Hi <span class="hljs-variable">$nama</span>, apa khabarmu&quot;</span> <span class="hljs-comment">#menyisipkan variabel nama</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-variable">$kata</span>;
+</code></pre>
+<p>Hasilnya adalah sebagai berikut :</p>
+<pre><code class="lang-bash">Hi pinguin, apa khabarmu
+</code></pre>
+<p>Kita dapat melihat bahwa di dalam variable kata, terdapat juga variable nama yang disisipkan.</p>
+<p>Dengan kutip tunggal (single-quoted), akan ditampilkan apa adanya. Sehingga jika kita memasukkan variable didalamnya, tidak akan dianggap sebagai variable. Contohnya adalah sebagai berikut :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+nama=<span class="hljs-string">&quot;pinguin&quot;</span>
+kata=<span class="hljs-string">&apos;Hi $nama, apa khabarmu&apos;</span> <span class="hljs-comment">#menyisipkan variabel nama</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-variable">$kata</span>;
+</code></pre>
+<p>Hasilnya adalah sebagai berikut :</p>
+<pre><code class="lang-bash">Hi <span class="hljs-variable">$nama</span>, apa khabarmu
+</code></pre>
+<p>Dengan kutip terbalik (double-quoted), bash menerjemahkan sebagai perintah/command yang akan dieksekusi, contohnya :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+hapus=`clear`;
+isi=`ls -l`;  <span class="hljs-comment">#hasil perintah ls -l disimpan di var isi</span>
+<span class="hljs-comment">#hapus layar</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-variable">$hapus</span>
+<span class="hljs-comment">#ls -l</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-variable">$isi</span>
+</code></pre>
+<p>Hasilnya bisa kita lihat sendiri dengan mencoba perintah tersebut. Yaitu ketika kita memanggil variable $hapus, kita berarti memerintahkan agar shell mengeksekusi perintah/command clear. Begitupun dengan variable $isi.</p>
+<p>Agar lebih jelas lagi perbedaannya, kita coba untuk menggabungkan beberapa penggunaan quote serta penggunaan Positional Parameter Variable menjadi satu :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment">#varuse</span>
+nama=<span class="hljs-string">&quot;ubuntu&quot;</span>
+OS=<span class="hljs-string">&apos;linux&apos;</span>
+distro=<span class="hljs-string">&quot;macam-macam, bisa slackware, redhat, mandrake, debian, suse, dll&quot;</span>
+pc=1
+hasilnya=`ls -l <span class="hljs-variable">$0</span>`
+clear
+<span class="hljs-built_in">echo</span> -e <span class="hljs-string">&quot;Hi <span class="hljs-variable">$nama</span>,\\npake <span class="hljs-variable">$OS</span>\\nDistribusi, <span class="hljs-variable">$distro</span>\\nkomputernya, <span class="hljs-variable">$pc</span> buah&quot;</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Hasil ls -l <span class="hljs-variable">$0</span> adalah =<span class="hljs-variable">$hasilnya</span>&quot;</span>
+</code></pre>
+<p>Maka hasilnya akan menjadi seperti berikut ini.</p>
+<pre><code class="lang-bash">![ubuntu@linux$]./varuse
+Hi ubuntu,
+pake linux Distribusi, macam-macam, bisa slackware,redhat,mandrake,debian,suse,dll
+komputernya, 1 buah
+Hasil ls -l ./varuse adalah -rwxr-xr-x 1 ubuntu users 299 Nov 21 06:24 ./varuse
+</code></pre>
+<p>Untuk operasi matematika ada 3 cara yang dapat kita  gunakan, dengan statement builtin <em>let</em> atau <em>expr</em> atau perintah subtitusi seperti contoh berikut :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment">#mat1</span>
+a=10
+b=5
+<span class="hljs-comment">#memakai let</span>
+<span class="hljs-built_in">let</span> jumlah=<span class="hljs-variable">$a</span>+<span class="hljs-variable">$b</span>
+<span class="hljs-built_in">let</span> kurang=<span class="hljs-variable">$a</span>-<span class="hljs-variable">$b</span>
+<span class="hljs-built_in">let</span> kali=<span class="hljs-variable">$a</span>*<span class="hljs-variable">$b</span>
+<span class="hljs-comment">#memakai expr</span>
+bagi=`expr <span class="hljs-variable">$a</span> / <span class="hljs-variable">$b</span>`
+<span class="hljs-comment">#memakai perintah subtitusi $((ekspresi))</span>
+modul =$((<span class="hljs-variable">$a</span>%<span class="hljs-variable">$b</span>))  <span class="hljs-comment">#sisa pembagian</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;<span class="hljs-variable">$a</span>+<span class="hljs-variable">$b</span>=<span class="hljs-variable">$jumlah</span>&quot;</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;<span class="hljs-variable">$a</span>-<span class="hljs-variable">$b</span>=<span class="hljs-variable">$kurang</span>&quot;</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;<span class="hljs-variable">$a</span>*<span class="hljs-variable">$b</span>=<span class="hljs-variable">$kali</span>&quot;</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;<span class="hljs-variable">$a</span>/<span class="hljs-variable">$b</span>=<span class="hljs-variable">$bagi</span>&quot;</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;<span class="hljs-variable">$a</span>%<span class="hljs-variable">$b</span>=<span class="hljs-variable">$mod</span>&quot;</span>
+</code></pre>
+<p>Hasilnya adalah seperti berikut.</p>
+<pre><code class="lang-bash">![ubuntu@linux$]./mat1
+10+5=15
+10-5=5
+10*5=50
+10/5=2
+10%5=0
+</code></pre>
+<p>Fungsi <em>expr</em> begitu berguna baik untuk operasi matematika ataupun string contohnya :</p>
+<pre><code class="lang-bash">![ubuntu@linux$]mystr=<span class="hljs-string">&quot;linux&quot;</span>
+![ubuntu@linux$]expr length <span class="hljs-variable">$mystr</span>
+5
+</code></pre>
+<p>Mungkin kalian bertanya-tanya, apakah bisa variabel yang akan digunakan dideklarasikan secara eksplisit dengan tipe data tertentu? mungkin seperti C atau pascal, untuk hal ini oleh Bash disediakan statement <em>declare</em> dengan opsi <em>-i</em> hanya untuk data integer (bilangan bulat). Contohnya sebagai berikut.</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-built_in">declare</span> -i angka
+angka=100;
+<span class="hljs-built_in">echo</span> <span class="hljs-variable">$angka</span>;
+</code></pre>
+<h1 id="exercise"><strong>Exercise</strong></h1>
+<ol>
+<li>Buatlah sebuah script yang dapat menampilkan status layanan dari masing-masing layanan berikut dengan menggunakan teknik Variable Position Parameter :<ol>
+<li>sshd</li>
+<li>mariadb</li>
+<li>httpd</li>
+</ol>
+</li>
+</ol>
+<h1 id="belajar-logika-pemrograman-pada-bash-script"><strong>Belajar Logika Pemrograman pada Bash Script</strong></h1>
+<p>Materi ini mengajarkan agar kita lebih terbiasa dengan pola pikir logika seorang programmer. Kita dapat menggunakan berbagai logika ini untuk mencapai tujuan-tujuan tertentu bukan hanya saat membuat file-file script saja, namun untuk berbagai kasus selama menjadi seorang DevOps nantinya.</p>
+<p>Disini kita akan mempelajari beberapa contoh kondisi logika seperti If Conditional dan Looping. Misalnya seperti : Jika kondisi A terpenuhi Maka lakukan command B, Ulangi kondisi A sebanyak X, Ulangi command A sampai kondisi B terpenuhi, dsb.</p>
+<p>Contoh realnya misal kita dapat membuat script yang berisi kondisi : Jika Programmer sudah upload code mereka, Maka nyalakan server A. Atau Jika user yang akses Server sudah mencapai 1000 orang, maka aktifkan Server tambahan B.</p>
+<p>Logika-logika ini akan cukup sering digunakan selama Anda menjadi DevOps. Karena seorang DevOps tidak hanya orang yang pandai jaringan, tapi juga memahami konsep-konsep programming.</p>
+<h2 id="if-conditional"><strong><em>If Conditional</em></strong></h2>
+<p>Sederhananya If Conditional ini menggunakan pola berpikir : <strong>Jika A Maka lakukan B.</strong></p>
+<p><img src="https://lh5.googleusercontent.com/MxAfbqjO1aZV6-yFfC7s3YtmbWSy5t-egzhpmZkYcV18BQ9ttAAYHiyFSjshj01RUsGmoVOp8hua0qhrnChUcpYcLpTnrzREVtSaFgd_VMcz9DgcZ_1-FmQZevjm4RcFFYSpNMut-7IV60U_PQ" alt="*Flow chart If Condition*"></p>
+<p><em>Flow chart If Condition</em></p>
+<p>Contohnya :</p>
+<ul>
+<li>jika kondisi A terpenuhi, Maka lakukan B.</li>
+<li>Jika 1+1 = 2 maka lakukan C</li>
+<li>Jika User A belum masuk group Admin, maka masukkan user A kedalam group Admin.</li>
+</ul>
+<p>Berikut kita akan coba aplikasikan If Conditional pada bash script. Sintaks dasarnya adalah :</p>
+<pre><code class="lang-bash"><span class="hljs-keyword">if</span> ![ CONDITION ]; <span class="hljs-keyword">then</span>
+    COMMANDS;
+<span class="hljs-keyword">else</span>
+    OTHER-COMMANDS;
+<span class="hljs-keyword">fi</span>
+</code></pre>
+<p>Dimana condition ini terdapat cukup banyak kombinasi yang bisa digunakan diantaranya :</p>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>! EXPRESSION</td>
+<td>The EXPRESSION is false.</td>
+</tr>
+<tr>
+<td>-n STRING</td>
+<td>The length of STRING is greater than zero.</td>
+</tr>
+<tr>
+<td>-z STRING</td>
+<td>The lengh of STRING is zero (ie it is empty).</td>
+</tr>
+<tr>
+<td>STRING1 = STRING2</td>
+<td>STRING1 is equal to STRING2</td>
+</tr>
+<tr>
+<td>STRING1 != STRING2</td>
+<td>STRING1 is not equal to STRING2</td>
+</tr>
+<tr>
+<td>INTEGER1 -eq INTEGER2</td>
+<td>INTEGER1 is numerically equal to INTEGER2</td>
+</tr>
+<tr>
+<td>INTEGER1 -ne INTEGER2</td>
+<td>INTEGER1 is numerically not equal to INTEGER2</td>
+</tr>
+<tr>
+<td>INTEGER1 -gt INTEGER2</td>
+<td>INTEGER1 is numerically greater than INTEGER2</td>
+</tr>
+<tr>
+<td>INTEGER1 -lt INTEGER2</td>
+<td>INTEGER1 is numerically less than INTEGER2</td>
+</tr>
+<tr>
+<td>-d FILE</td>
+<td>FILE exists and is a directory.</td>
+</tr>
+<tr>
+<td>-e FILE</td>
+<td>FILE exists.</td>
+</tr>
+<tr>
+<td>-r FILE</td>
+<td>FILE exists and the read permission is granted.</td>
+</tr>
+<tr>
+<td>-s FILE</td>
+<td>FILE exists and it&apos;s size is greater than zero (ie. it is not empty).</td>
+</tr>
+<tr>
+<td>-w FILE</td>
+<td>FILE exists and the write permission is granted.</td>
+</tr>
+<tr>
+<td>-x FILE</td>
+<td>FILE exists and the execute permission is granted.</td>
+</tr>
+</tbody>
+</table>
+<p>Misal kita ingin membuat script sebagai berikut :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+Y=1
+<span class="hljs-keyword">if</span> ![ <span class="hljs-variable">$Y</span> -eq 2 ]; <span class="hljs-keyword">then</span>
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Hebat&quot;</span>
+<span class="hljs-keyword">else</span>
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Keren&quot;</span>
+<span class="hljs-keyword">fi</span>
+</code></pre>
+<p>Script itu artinya : Jika variabel Y sama dengan 2, maka tampilkan pesan Hebat. Jika selain 2 maka tampilkan Keren. Kita bisa coba ubah-ubah isi variable Y tersebut untuk memastikan apakah kondisi If sudah berjalan.</p>
+<p>Kita bisa coba aplikasikan ilmu berbagai command, manipulasi teks dan penggunaan variable yang sudah kita pelajari sebelumnya dengan if conditional ini. Misal kita bisa buat script untuk mencari tau apakah seorang user bernama cilsy sudah masuk ke dalam grup sudo atau belum, jika belum maka masukkan user tersebut ke dalam grup sudo tersebut.</p>
+<p>Nb : Pertama-tama buatlah terlebih dahulu user cilsy jika belum ada</p>
+<p>Selanjutnya buatlah file bernama scriptbelajar2.sh yang berisi script berikut :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+grupsudo=<span class="hljs-string">&quot;sudo&quot;</span>
+groups <span class="hljs-variable">$1</span> | grep <span class="hljs-variable">$grupsudo</span>
+
+<span class="hljs-keyword">if</span> ![ $? -ne 0 ]; <span class="hljs-keyword">then</span>
+        <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;User <span class="hljs-variable">$1</span> belum masuk grup sudo, kita masukkan terlebih dahulu..&quot;</span>
+        sudo usermod -aG <span class="hljs-variable">$grupsudo</span> <span class="hljs-variable">$1</span>
+        <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Berhasil!&quot;</span>
+<span class="hljs-keyword">else</span>
+        <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;User <span class="hljs-variable">$1</span> sudah masuk grup sudo&quot;</span>
+<span class="hljs-keyword">fi</span>
+</code></pre>
+<p>Jangan lupa setelah itu kita berikan hak akses execute :</p>
+<pre><code class="lang-bash">chmod 755 scriptbelajar2.sh
+</code></pre>
+<p>Selanjutnya coba jalankan script tersebut sambil kita cek perbedaannya antara sebelum masuk grup sudo dan sesudah :</p>
+<pre><code class="lang-bash">rizal@rizal-Inspiron-5468 ~ $ groups cilsy
+cilsy : cilsy
+rizal@rizal-Inspiron-5468 ~ $ ./scriptbelajar2.sh cilsy
+User cilsy belum masuk grup sudo, kita masukkan terlebih dahulu..
+Berhasil!
+rizal@rizal-Inspiron-5468 ~ $ groups cilsy
+cilsy : cilsy sudo
+rizal@rizal-Inspiron-5468 ~ $ ./scriptbelajar2.sh cilsy
+cilsy : cilsy sudo
+User cilsy sudah masuk grup sudo
+</code></pre>
+<p>Pada script tersebut kita menggunakan beberapa teknik yang sudah kita pelajari sebelumnya seperti User Defined Variable, dan Positional Parameter Variable. Kita juga menggunakan manipulasi teks menggunakan grep.</p>
+<p>Yang perlu diperhatikan sedikit adalah pada bagian Condition disana kita menggunakan kondisi $?. $? ini adalah kondisi yang bisa menangkap status dari ada atau tidaknya output dari command yang sudah kita lakukan. Jika command tersebut ada outputnya dan berhasil, maka akan menampilkan angka 0. Jika tidak ada outputnya atau gagal, maka menampilkan angka 1. Sehingga pada kodisi diatas, bisa diartikan kita menangkap status dari command :</p>
+<pre><code class="lang-bash">groups <span class="hljs-variable">$1</span> | grep <span class="hljs-variable">$grupsudo</span>
+</code></pre>
+<p>Jika Command tersebut menampilkan output (bahwa user Cilsy ada di grup sudo), maka hasil $? menjadi 0. Jika tidak, maka menjadi 1.</p>
+<p>Sehingga kesimpulan dari kondisi yang kita gunakan adalah : Jika status dari command “groups $1 | grep $grupsudo” TIDAK SAMA (-ne) dengan 0, maka …….</p>
+<h2 id="while-looping"><strong><em>While Looping</em></strong></h2>
+<p>Pola pikir While Looping adalah seperti ini : <strong>Lakukan X terus menerus selama kondisi Y belum terpenuhi.</strong></p>
+<p><img src="https://lh3.googleusercontent.com/_HMsHppNmDFLrUSNvgpPg4Bn_UfuxDetRP6LgP1woYd5vYiBi5vhCXBmeJuWKxGcZ2JKEO7ggqsU-dEya3cNGHlL8b6iwlHcvlB5a2P8ilq1PgTCQIdEFK6pTYc8ifQSnumltXWuWDtAHIuqRA" alt="*Flow Chart While Looping*"></p>
+<p><em>Flow Chart While Looping</em></p>
+<p>Contohnya :</p>
+<ul>
+<li>Kurangi angka 100 selama hasilnya belum 1.</li>
+<li>Lakukan Command Y Selama command X belum dilaksanakan.</li>
+<li>Jangan restart server selama user yang akses belum 1000 orang.</li>
+</ul>
+<p>Sintaks dasar dari While Looping adalah :</p>
+<pre><code class="lang-bash"><span class="hljs-keyword">while</span> ![ CONDITION ]
+<span class="hljs-keyword">do</span>
+COMMAND
+<span class="hljs-keyword">done</span>
+</code></pre>
+<p>Berikut contoh sederhana dari penggunaan While Looping :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment"># Basic while loop</span>
+counter=1
+<span class="hljs-keyword">while</span> ![ <span class="hljs-variable">$counter</span> -le 10 ]
+<span class="hljs-keyword">do</span>
+    <span class="hljs-built_in">echo</span> “Angka : <span class="hljs-variable">$counter</span>”
+    ((counter++))
+<span class="hljs-keyword">done</span>
+<span class="hljs-built_in">echo</span> All <span class="hljs-keyword">done</span>
+</code></pre>
+<p>Script diatas Melakukan penambahan variable counter sebanyak 1 terus menerus hingga mencapai 10. Dan pada setiap perulangannya kita menampilkan pesan Angka : counter.</p>
+<pre><code class="lang-bash">rizal@rizal-Inspiron-5468 ~ $ ./scriptbelajar4.sh 
+Angka : 1
+Angka : 2
+Angka : 3
+Angka : 4
+Angka : 5
+Angka : 6
+Angka : 7
+Angka : 8
+Angka : 9
+Angka : 10
+All <span class="hljs-keyword">done</span>
+</code></pre>
+<h2 id="for-looping"><strong><em>For Looping</em></strong></h2>
+<p>Pola pikir For Looping agak sedikit berbeda dengan looping While. Dimana untuk For cara berpikirnya adalah seperti ini : <strong>Untuk setiap X pada List yang diberikan, lakukan serangkaian Command Y. Dimana X nilainya akan sama dengan setiap List yang diberikan.</strong></p>
+<p><img src="https://lh6.googleusercontent.com/pl_KJTydCkRq1xC1OxFRg5w1krc509lHHW1pQUNoRrxhhctsh7fvEVRRusL4CYCdaW1YrhvifFBZDyeMFllYAeNeH5JV8xWfHkKTymMDjC-wVJmHqi3hsegKY8-gNQAEdt6DMJH4PiifJ70MQg" alt="*Flow Chart For Looping*"></p>
+<p><em>Flow Chart For Looping</em></p>
+<p>Contohnya :</p>
+<ul>
+<li>Masukkan user A kedalam setiap grup yang ada di server.</li>
+<li>Cari file bernama X sebanyak 1000 file yang ada di folder Z.</li>
+<li>Hapus angka 1 pada setiap nama file yang ada di folder Z.</li>
+</ul>
+<p>Sintaks dasar dari For Looping adalah :</p>
+<pre><code class="lang-bash"><span class="hljs-keyword">for</span> VARIABLE <span class="hljs-keyword">in</span> LISTS
+<span class="hljs-keyword">do</span>
+COMMANDS
+<span class="hljs-keyword">done</span>
+</code></pre>
+<p>Berikut contoh sederhana dari penggunaan For Looping :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment"># Basic range in for loop</span>
+<span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> {1..5}
+<span class="hljs-keyword">do</span>
+        touch /tmp/cilsy<span class="hljs-variable">$value</span>
+<span class="hljs-keyword">done</span>
+<span class="hljs-built_in">echo</span> All <span class="hljs-keyword">done</span>
+</code></pre>
+<p>Pada script tersebut, kita membuat teks bernama cilsy+angka sebanyak 5x di folder /tmp. Sehingga terbuatlah file cilsy1, cilsy2, cilsy3 hingga cilsy5.</p>
+<p>Contoh kedua misalnya kita akan membuat List dari masing-masing nama file yang ada di suatu folder kemudian melakukan sesuatu terhadap file tersebut pada setiap perulangannya.</p>
+<p>Misal buatlah 3 buah file bernama seperti ini di folder /tmp/latihanscript :</p>
+<pre><code class="lang-bash">mkdir /tmp/latihanscript
+touch /tmp/latihanscript/forloop1.txt
+touch /tmp/latihanscript/forloop2.txt
+touch /tmp/latihanscript/forloop3.txt
+</code></pre>
+<p>Lalu buat file script bernama scriptbelajar6.sh dengan isi seperti ini :</p>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+lihatdirektori=`ls /tmp/latihanscript`
+counter=1
+
+<span class="hljs-keyword">for</span> value <span class="hljs-keyword">in</span> <span class="hljs-variable">$lihatdirektori</span>
+<span class="hljs-keyword">do</span>
+        mv /tmp/latihanscript/<span class="hljs-variable">$value</span> /tmp/latihanscript/hasilloop<span class="hljs-variable">$counter</span>.txt
+        ((counter++))
+<span class="hljs-keyword">done</span>
+<span class="hljs-built_in">echo</span> All <span class="hljs-keyword">done</span>
+</code></pre>
+<p>Cobalah eksekusi script tersebut dan lihat perbedaan antara sebelum dan sesudah :</p>
+<pre><code class="lang-bash">rizal@rizal-Inspiron-5468 ~ $ chmod 755 scriptbelajar6.sh 
+rizal@rizal-Inspiron-5468 ~ $ ls /tmp/latihanscript/
+forloop1.txt  forloop2.txt  forloop3.txt
+rizal@rizal-Inspiron-5468 ~ $ ./scriptbelajar6.sh 
+All <span class="hljs-keyword">done</span>
+rizal@rizal-Inspiron-5468 ~ $ ls /tmp/latihanscript/
+hasilloop1.txt  hasilloop2.txt  hasilloop3.txt
+</code></pre>
+<p>Script tersebut membuat variable value akan menangkap nama masing-masing nama file pada setiap perulangannya. Cara kerjanya kira-kira seperti ini :</p>
+<pre><code class="lang-bash">mv /tmp/latihanscript/forloop1.txt /tmp/latihanscript/hasilloop1.txt
+mv /tmp/latihanscript/forloop2.txt /tmp/latihanscript/hasilloop2.txt
+mv /tmp/latihanscript/forloop3.txt /tmp/latihanscript/hasilloop3.txt
+</code></pre>
+<h1 id="exercise"><strong>Exercise</strong></h1>
+<ol>
+<li>Buatlah sebuah script yang dapat menghitung pada baris keberapa kata “shadow” muncul pada file /etc/group. Jika nilai barisnya lebih dari 10 maka tampilkan pesan “Lebih dari 10”, jika dibawah 10 maka tampilkan pesan “kurang dari 10”.</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html" class="navigation navigation-prev " aria-label="Previous page: 15 Setup Webserver & Applications">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html" class="navigation navigation-next " aria-label="Next page: 17 Membuat Automasi Setup Webserver dengan Bash">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"16 Shell Scripting","level":"1.4.16","depth":2,"next":{"title":"17 Membuat Automasi Setup Webserver dengan Bash","level":"1.4.17","depth":2,"path":"2 Linux Operation System/17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.md","ref":"2 Linux Operation System/17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.md","articles":[]},"previous":{"title":"15 Setup Webserver & Applications","level":"1.4.15","depth":2,"path":"2 Linux Operation System/15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.md","ref":"2 Linux Operation System/15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"2 Linux Operation System/16 Shell Scripting b368df8094b744c09b7eec62badd232f.md","mtime":"2022-09-15T11:52:02.939Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2022-09-15T12:08:18.169Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

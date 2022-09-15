@@ -1,0 +1,25 @@
+{
+  "name": "sekolah-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekolahdevopscilsy/learning-path.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sekolahdevopscilsy/learning-path/issues"
+  },
+  "homepage": "https://github.com/sekolahdevopscilsy/learning-path#readme",
+  "dependencies": {
+    "gitbook-cli": "^0.1.0"
+  },
+  "devDependencies": {
+    "honkit": "^4.0.0"
+  }
+}

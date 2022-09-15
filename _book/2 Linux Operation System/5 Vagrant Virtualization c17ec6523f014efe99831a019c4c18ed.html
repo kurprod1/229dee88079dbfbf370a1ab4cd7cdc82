@@ -1,0 +1,808 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>5 Vagrant Virtualization · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html" />
+    
+    
+    <link rel="prev" href="4 Mengenal Linux (GNU Linux" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../0 Introduction/">
+            
+                <a href="../0 Introduction/">
+            
+                    
+                    0 Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                <a href="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                <a href="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                    
+                    2 Membuat Objektif Belajar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                <a href="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                    
+                    3 Your Big Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                <a href="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                    
+                    4 Newbie in Tech Read This!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                <a href="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                    
+                    5 Hmmm… DevOps
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../1 Network Overview/">
+            
+                <a href="../1 Network Overview/">
+            
+                    
+                    1 Network Overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                <a href="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                <a href="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                <a href="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                    
+                    3 Networking Fundamental
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                <a href="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                    
+                    4 OSI dan TCP IP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                <a href="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                    
+                    5 IP Address
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                <a href="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                    
+                    6 Menggambar dan Membaca Topologi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                <a href="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                    
+                    7 Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    2 Linux Operation System
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                <a href="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                <a href="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                <a href="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                    
+                    3 Pengenalan Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="4 Mengenal Linux (GNU Linux">
+            
+                <span>
+            
+                    
+                    4 Mengenal Linux (GNU Linux)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.5" data-path="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                <a href="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                    
+                    5 Vagrant Virtualization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                <a href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                    
+                    6 Linux File Hierarchy Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                <a href="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                    
+                    7 Linux Command Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                <a href="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                    
+                    8 Text & File Manipulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                <a href="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                    
+                    9 Archiving Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                <a href="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                    
+                    10 Users & Groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                <a href="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                    
+                    11 Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                <a href="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                    
+                    12 Package Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                <a href="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                    
+                    13 Service Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                <a href="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                    
+                    14 Roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                <a href="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                    
+                    15 Setup Webserver & Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                <a href="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                    
+                    16 Shell Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                <a href="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                    
+                    17 Membuat Automasi Setup Webserver dengan Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" data-path="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                <a href="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                    
+                    18 Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >5 Vagrant Virtualization</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="5-vagrant-virtualization">5. Vagrant Virtualization</h1>
+<p>Created: June 23, 2022 10:30 AM</p>
+<p>Ketika kita melakukan development terhadap sebuah aplikasi terkadang kita membutuhkan tool - tool penting untuk membantu pada developer untuk membuat sebuah aplikasi. Ada beberapa masalah yang sering ditemui oleh seorang developer diantaranya adalah :</p>
+<ul>
+<li>Kesulitan ketika antar developer menggunakan sistem operasi yang berbeda.</li>
+<li>Kesulitan ketika server yang digunakan menggunakan sistem operasi yang berbeda.</li>
+<li>Kesulitan ketika project yang sedang dikerjakan tidak dapat berjalan di PC yang lain.</li>
+</ul>
+<p>Dari beberapa kesulitan tersebut kita dapat meminimalkannya dengan menggunakan <strong>Vagrant</strong>. Apa itu vagrant ?</p>
+<p>Vagrant adalah sebuah software yang menggunakan teknologi virtual machine dimana kita dapat membuat lingkungan development secara portable, konsisten dan lebih fleksibel.</p>
+<p><img src="https://lh5.googleusercontent.com/AqwK66sUpvfNH2WS_ZJ9V2R8fpC1RoOcn1YhouKoCB8m8sxxi6PkmPURX6-PwFt2QixoBMazX7hhTbGW1W5RMJuvt_GjoUVNQnYO5__S4800i5GKK88EJFcznFvhv1LR2pBNgyi-HqYq72hsLw" alt="*Hashicorp Vagrant*"></p>
+<p><em>Hashicorp Vagrant</em></p>
+<p>Dikarenakan vagrant menggunakan teknologi virtual machine maka kita membutuhkan software seperti virtualbox dan VmWare. Tujuannya adalah kita ingin membuat sebuah lingkungan development secara portable, contohnya misalnya pada saat production kita akan menggunakan sistem operasi ubuntu maka pada saat development kita akan menggunakan ubuntu sebagai sistem operasi sehingga pada saat proses deploy ke production diharapkan tidak ada lagi permasalahan yang muncul.</p>
+<p>Ketika ingin melakukan duplikasi atau dibagikan kepada team developer yang lain maka kita tinggal menggunakan perintah vagrant sehingga secara otomatis vagrant akan melakukan konfigurasi pada PC masing - masing team developer sehingga mempermudah dalam development sebuah aplikasi.</p>
+<h1 id="instalasi-virtual-box"><strong>Instalasi Virtual Box</strong></h1>
+<p>Pada modul ini, kita akan menggunakan virtual box dikarenakan virtual box merupakan software open source dan lebih mudah dikonfigurasikan. Pertama-tama, buka terminal pada OS Ubuntu Anda dengan menekan tombol CTRL + ALT + T.</p>
+<p>Setelah terminal terbuka masukkan public key dengen menjalankan perintah berikut.</p>
+<pre><code class="lang-bash">wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+</code></pre>
+<p><img src="https://lh4.googleusercontent.com/2csuYa6M0mSukP9g97kU4kcug70HO7hLfV_z3gOw4o5Ck4JPOLW5l63ronziRAo84UgcPkXlPgSZj5hSW8sUYyXrp6bfuRp20KqVmD4-vduk13SrAoIpdcv-BQTZh98hvsF2KvPhGBdvbI3GfQ" alt="https://lh4.googleusercontent.com/2csuYa6M0mSukP9g97kU4kcug70HO7hLfV_z3gOw4o5Ck4JPOLW5l63ronziRAo84UgcPkXlPgSZj5hSW8sUYyXrp6bfuRp20KqVmD4-vduk13SrAoIpdcv-BQTZh98hvsF2KvPhGBdvbI3GfQ"></p>
+<p>Setelah itu tambahkan repository virtualbox menggunakan perintah berikut.</p>
+<pre><code class="lang-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;deb ![arch=amd64] http://download.virtualbox.org/virtualbox/debian <span class="hljs-subst">$(lsb_release -sc)</span> contrib&quot;</span> | sudo tee /etc/apt/sources.list.d/virtualbox.list
+</code></pre>
+<p><img src="https://lh4.googleusercontent.com/oMtSaZD7hDa7rLhtl3qRBnk4RQN77xt1EYpFpLyB1je1IQ7rY0kFTD_3MwOyHKDhiOOtfxcbELSF2-SbT7GZwfW39pn2cHjGw_SlzOnXJlblLi7yL60c2VRvpG6L8zhx_d7pGZctzr7a6TLI-A" alt="https://lh4.googleusercontent.com/oMtSaZD7hDa7rLhtl3qRBnk4RQN77xt1EYpFpLyB1je1IQ7rY0kFTD_3MwOyHKDhiOOtfxcbELSF2-SbT7GZwfW39pn2cHjGw_SlzOnXJlblLi7yL60c2VRvpG6L8zhx_d7pGZctzr7a6TLI-A"></p>
+<p>Kemudian gunakan perintah berikut untuk melakukan instalasi virtual box.</p>
+<pre><code class="lang-bash">sudo apt update
+sudo apt install virtualbox-6.1 virtualbox-ext-pack
+</code></pre>
+<p>Pilih OK pada user agreement license seperti pada gambar dibawah. Caranya adalah dengan menekan tombol TAB pada keyboard hingga tulisan OK terdapat highlight, kemudian tekan enter.</p>
+<p><img src="https://lh6.googleusercontent.com/RNTQe01fwb1JaKCSDNivT-HVPGRZids_dcQJUHV8Jj-D8tdqw9ggcR8_9fTqD37H3HycAVPak6SazoCaBVZbBbi8hvL-0x4Cpc9vv28J4Mps_OqOj1VCn0mFPRP_fZ_WFMHk4D4-SHFb8rgw9Q" alt="https://lh6.googleusercontent.com/RNTQe01fwb1JaKCSDNivT-HVPGRZids_dcQJUHV8Jj-D8tdqw9ggcR8_9fTqD37H3HycAVPak6SazoCaBVZbBbi8hvL-0x4Cpc9vv28J4Mps_OqOj1VCn0mFPRP_fZ_WFMHk4D4-SHFb8rgw9Q"></p>
+<p>Pilih Yes pada prompt berikut, kemudian tunggu hingga instalasi selesai.</p>
+<p><img src="https://lh5.googleusercontent.com/7vwOpRdfKem58Y4dD_B_RTpUVYumNYUe9nubhaYAa0QDWr-znY28hUOk2i1e9_BdHrj_uqNrNKZQLiTaigEWS3h81sM6gSO0Cj0byPgMhoY_I0q1s068kBVGbHv-vqLATqcbJbbTAVj6rOSxvg" alt="https://lh5.googleusercontent.com/7vwOpRdfKem58Y4dD_B_RTpUVYumNYUe9nubhaYAa0QDWr-znY28hUOk2i1e9_BdHrj_uqNrNKZQLiTaigEWS3h81sM6gSO0Cj0byPgMhoY_I0q1s068kBVGbHv-vqLATqcbJbbTAVj6rOSxvg"></p>
+<h1 id="instalasi-vagrant"><strong>Instalasi Vagrant</strong></h1>
+<p>Untuk melakukan instalasi vagrant silahkan download vagrant terlebih dahulu di <a href="https://www.vagrantup.com/downloads.html" target="_blank">vagrant download</a>, disini kita menggunakan ubuntu 18.04 64 bit maka kita pilih versi debian 64 bit. Untuk melakukan instalasinya silahkan jalankan perintah.</p>
+<pre><code class="lang-bash">curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository <span class="hljs-string">&quot;deb ![arch=amd64] https://apt.releases.hashicorp.com <span class="hljs-subst">$(lsb_release -cs)</span> main&quot;</span>
+sudo apt-get update &amp;&amp; sudo apt-get install vagrant
+</code></pre>
+<h2 id="instalasi-box-vagrant"><strong>Instalasi Box Vagrant</strong></h2>
+<p>Box pada vagrant berfungsi sebagai virtual machine yang memuat sistem operasi dan disana juga terdapat seluruh konfigurasi yang kita lakukan. Dengan demikian maka secara tidak langsung sebenarnya kita menggunakan virtual machine maka oleh karena itu kita membutuhkan virtual box sebagai tempat virtual machine.</p>
+<p>Mengapa kita menggunakan vagrant ? mengapa tidak menggunakan virtual box saja ?</p>
+<p>Salah satu alasannya adalah ketika menggunakan vagrant maka vagrant akan melakukan semua konfigurasi hanya dengan satu perintah pada saat sistem operasi start up sedangkan jika kita menggunakan virtual box maka kita harus melakukan konfigurasi secara manual.</p>
+<p>Repository box bisa dilihat di <a href="https://app.vagrantup.com/boxes/search" target="_blank">repository box</a>. Berikut adalah bentuk umum untuk melakukan instalasi box.</p>
+<pre><code class="lang-bash">vagrant box add user/box
+</code></pre>
+<p>bisa dilihat bahwa untuk melakukan instalasi box sangatlah mudah yaitu kita hanya menggunakan perintah diatas dan anda hanya perlu mengganti perintah user/box. Perintah user berarti adalah pembuat box sedangkan perintah box  adalah box yang ingin kita gunakan. Disini kita akan menggunakan box ubuntu/trusty64 maka jalankan perintah berikut.</p>
+<pre><code class="lang-bash">vagrant box add ubuntu/trusty64
+</code></pre>
+<p><img src="https://lh5.googleusercontent.com/sxhAGyMbdqv9RscXZanMzW-izOzSC4iU8Yj_9MI_t8pmWBvjzlsrVIUxLTnIv7ocd5j40lQfWhh1ptG5EhDrUS6NSJLIZTPsGoBZEGNcU7iPmrXF8g477xi6uCAtiV0DXGy2DWCrfOTT0Cv4yA" alt="https://lh5.googleusercontent.com/sxhAGyMbdqv9RscXZanMzW-izOzSC4iU8Yj_9MI_t8pmWBvjzlsrVIUxLTnIv7ocd5j40lQfWhh1ptG5EhDrUS6NSJLIZTPsGoBZEGNcU7iPmrXF8g477xi6uCAtiV0DXGy2DWCrfOTT0Cv4yA"></p>
+<p><strong>PERHATIAN !</strong></p>
+<p>Untuk melakukan instalasi box membutuhkan koneksi internet dan membutuhkan instalasi yang lama dikarenakan kita akan mendownload sebuah sistem operasi yang berkisar 1 GB &gt; tergantung dari sistem operasi yang akan digunakan.</p>
+<h2 id="membuat-project"><strong>Membuat Project</strong></h2>
+<p>Untuk membuat project, silahkan buat sebuah folder misalnya disini kita akan membuat folder vagrantproject. Lakukan perintah berikut untuk membuat direktori vagrantproject.</p>
+<p><img src="https://lh4.googleusercontent.com/pZM68yXAiRtd4Lr8o-ySK3aQZxTneiaJZxKWeiHugjXq0U0b5Xd4wfK2HnoxjOKvaIRGjkX8VwX5DPrUeJUNkw6ICBBjH-l1UW4lJ5XE1IJPV7CR8WKzBsYe7ZlBh0eGk2uT6hlSoJlH64rgow" alt="https://lh4.googleusercontent.com/pZM68yXAiRtd4Lr8o-ySK3aQZxTneiaJZxKWeiHugjXq0U0b5Xd4wfK2HnoxjOKvaIRGjkX8VwX5DPrUeJUNkw6ICBBjH-l1UW4lJ5XE1IJPV7CR8WKzBsYe7ZlBh0eGk2uT6hlSoJlH64rgow"></p>
+<p>Kemudian jalankan perintah berikut di dalam folder tersebut. Perintah ini akan menambahkan box Ubuntu 20.04 (Focal Fossa).</p>
+<pre><code class="lang-bash">vagrant init ubuntu/focal64
+</code></pre>
+<p>maka akan muncul output seperti berikut.</p>
+<p><img src="https://lh6.googleusercontent.com/mXJ7zbrSqQCLOezrYnqI8pb7gWjDb4RMNd1UiLVSGPmhI4bxLRDjhKUHCU8eIJ2Afit5ytbABPb0U9U3mFdEnpPjQSR5Cjeh1VjuPz_A2HVpfqRBXCM8tGad0o9I4-_pZGLsEHXMe4MR8DrPsA" alt="https://lh6.googleusercontent.com/mXJ7zbrSqQCLOezrYnqI8pb7gWjDb4RMNd1UiLVSGPmhI4bxLRDjhKUHCU8eIJ2Afit5ytbABPb0U9U3mFdEnpPjQSR5Cjeh1VjuPz_A2HVpfqRBXCM8tGad0o9I4-_pZGLsEHXMe4MR8DrPsA"></p>
+<p>Setelah proses diatas, maka akan muncul sebuah file bernama Vagrantfile. Kita bisa lihat dengan perintah</p>
+<pre><code class="lang-bash">ls
+</code></pre>
+<p><img src="https://lh4.googleusercontent.com/HiuOFMqPh9uHoFtMyiBc4JC_BCXdipnpKDcZwcHcelGX5U-QvhOLEJLz0FqJeg_K-t_0_YaoWexTcoJKskXUAw8YJZHBdRI3Jphw0bv2X1-VVzfUzmPd-uLB4lwWuYLQHFXtPOAHJjg4wJx9mg" alt="https://lh4.googleusercontent.com/HiuOFMqPh9uHoFtMyiBc4JC_BCXdipnpKDcZwcHcelGX5U-QvhOLEJLz0FqJeg_K-t_0_YaoWexTcoJKskXUAw8YJZHBdRI3Jphw0bv2X1-VVzfUzmPd-uLB4lwWuYLQHFXtPOAHJjg4wJx9mg"></p>
+<p>Selanjutnya, untuk menjalankan silahkan jalankan perintah berikut.</p>
+<pre><code class="lang-bash">vagrant up
+</code></pre>
+<p>Maka akan tampil output berikut pada terminal.</p>
+<p><img src="https://lh6.googleusercontent.com/E9UMbsZcz67_ec4UTRpuqBJq0t3hKpo9LVdLj3KnPHdFgtQqCuleTvwokPmsTGvL8YVbCiMvy-6K2eN2DX3_zLyCMqhy1NGnbBjkZVumNav8f_tbNViqPtH2zfuWcVO0IaHaz8c-Ea5HZzPrsg" alt="https://lh6.googleusercontent.com/E9UMbsZcz67_ec4UTRpuqBJq0t3hKpo9LVdLj3KnPHdFgtQqCuleTvwokPmsTGvL8YVbCiMvy-6K2eN2DX3_zLyCMqhy1NGnbBjkZVumNav8f_tbNViqPtH2zfuWcVO0IaHaz8c-Ea5HZzPrsg"></p>
+<p>Jika box telah jalan, langkah selanjutnya adalah login ke dalam box yang telah kita jalankan. Untuk login ke dalam box silahkan jalankan perintah berikut.</p>
+<pre><code class="lang-bash">vagrant ssh
+</code></pre>
+<p>Jika berhasil maka akan muncul output pada terminal seperti berikut.</p>
+<p><img src="https://lh4.googleusercontent.com/TasywBLk28YYf1kdxqRsc82BTkFBt_3QD7vwU4iZFZabd35CmZqIJbTvPJS6QEOasnTZepn0EQ1ywD5SWOMZ2kDx3rotwGfvxRUXdAjJ8RcW1NZtzpJ8W3F_qOPszT4VVBmb5BfVIyzO7NzO3A" alt="https://lh4.googleusercontent.com/TasywBLk28YYf1kdxqRsc82BTkFBt_3QD7vwU4iZFZabd35CmZqIJbTvPJS6QEOasnTZepn0EQ1ywD5SWOMZ2kDx3rotwGfvxRUXdAjJ8RcW1NZtzpJ8W3F_qOPszT4VVBmb5BfVIyzO7NzO3A"></p>
+<p>Instalasi box pada vagrant telah berhasil. Sekarang kita bisa memulai belajar Linux tanpa takut error berpengaruh pada sistem operasi kita.</p>
+<p>Namun bagaimana kita berkomunikasi dengan box Vagrant ini ? Yang dimaksudkan disini itu adalah bagimana kita dapat melakukan <strong>ping</strong> ke box Vagrant. Oleh karena itu kita harus mengatur networking dari box kita ini.</p>
+<p>Ada 2 cara yang disediakan Vagrant untuk mengatur IP box. <strong>Public</strong> atau <strong>Private</strong>.</p>
+<p>Public berarti box dapat diakses dari luar jaringan. Private berarti hanya box dan laptop fisik yang dapat berkomunikasi.</p>
+<p>Kita hanya cukup mengubah konfigurasi file <strong>Vagrantfile</strong> dengan cara hapus karakter <strong>#</strong> pada bagian seperti gambar.</p>
+<p><img src="https://lh4.googleusercontent.com/tup01aPMGWbHfzKTJyStICghlowNkufkpgvlvogYtchuKJkm3zpROwqV-YVCeeEFZ6TMHnN0wHvEoEvW-2n6GU5G5zAj08cu2g_b1JvbAtFw0yZhathspOS2uW5Qbu3Er2f3gzwFsY7NPsfsMg" alt="https://lh4.googleusercontent.com/tup01aPMGWbHfzKTJyStICghlowNkufkpgvlvogYtchuKJkm3zpROwqV-YVCeeEFZ6TMHnN0wHvEoEvW-2n6GU5G5zAj08cu2g_b1JvbAtFw0yZhathspOS2uW5Qbu3Er2f3gzwFsY7NPsfsMg"></p>
+<p>Sehingga seperti ini.</p>
+<p><img src="https://lh5.googleusercontent.com/6JIqnmApn3FPWqJS6if2bZGGrd6v0lIISS6hHnHbZfP-yVQiYyQ9x_IMvxNdFTYYYuxFUAZSQ_CyLgqJAFPiK0jd5HnPIbpFaIoB9kNHzc4PF98rZZTtlYsBUORIV22o9oj2Gs1X2L6ToX8Drg" alt="https://lh5.googleusercontent.com/6JIqnmApn3FPWqJS6if2bZGGrd6v0lIISS6hHnHbZfP-yVQiYyQ9x_IMvxNdFTYYYuxFUAZSQ_CyLgqJAFPiK0jd5HnPIbpFaIoB9kNHzc4PF98rZZTtlYsBUORIV22o9oj2Gs1X2L6ToX8Drg"></p>
+<p>Setelah itu save file dengan menekan kombinasi Ctrl+x, lalu Ctrl+Y, dan Enter.</p>
+<p>Setelah itu, kita lakukan <strong>reload</strong> pada box untuk menerapkan perubahan. Lalu kita akan ditanya interface mana yang akan dijadikan <strong>Bridge</strong>. Disini saya menggunakan interface Wi-Fi yang ditandai dengan huruf w didepan nama interface nya yang bernomorkan 1.</p>
+<p><img src="https://lh6.googleusercontent.com/fS_BBVqQ2k0dDt8nNyx9LWS29Gj2PjMQXiTfUxZVI6UQCpSiTZ1Y1Zwan-h8SsBazPLDPyxYjXiVfFqkSKpDub5MWm3P74mviOqDGmPAAZfn7d4NoAjG2fJqSC6rQQ14nnOolCQ57AO2PAVOVg" alt="https://lh6.googleusercontent.com/fS_BBVqQ2k0dDt8nNyx9LWS29Gj2PjMQXiTfUxZVI6UQCpSiTZ1Y1Zwan-h8SsBazPLDPyxYjXiVfFqkSKpDub5MWm3P74mviOqDGmPAAZfn7d4NoAjG2fJqSC6rQQ14nnOolCQ57AO2PAVOVg"></p>
+<p>Setelah itu kita masuk ke box lagi menggunakan perintah <strong>vagrant ssh</strong>. Sekarang kita melihat ada interface baru yaitu <strong>enp0s8</strong> dengan IP seperti gambar.</p>
+<p><img src="https://lh5.googleusercontent.com/nSBY-O4zCLYlIR33K6Rax5HJdbfjKjk_Yo0Npb3i17igjDBAazmBj-zYbmwcxCNn1uBO5-hZ6rFOg1O73yD-d_Ev68T_kIGCcvdSH10pmIo54Sh3fl77jINiNwb3Wkh3GlI2lYnqoJqjg1skOA" alt="https://lh5.googleusercontent.com/nSBY-O4zCLYlIR33K6Rax5HJdbfjKjk_Yo0Npb3i17igjDBAazmBj-zYbmwcxCNn1uBO5-hZ6rFOg1O73yD-d_Ev68T_kIGCcvdSH10pmIo54Sh3fl77jINiNwb3Wkh3GlI2lYnqoJqjg1skOA"></p>
+<p>Kita lakukan ping dari fisik laptop ke box.</p>
+<p><img src="https://lh4.googleusercontent.com/ypWWak4j9eoRtbqBwXJwMxnqEqewR5yhWl714U0SO3kCUpWTqMm8te9CBiyYrMVfAb9Gd0WvAjEKujT4IMvmXmc-9hAIdeDjyW3iT6TqcpCzOTgX5_nciMDPfS91ViVFlyaIxtwaYqtCu7SNEA" alt="https://lh4.googleusercontent.com/ypWWak4j9eoRtbqBwXJwMxnqEqewR5yhWl714U0SO3kCUpWTqMm8te9CBiyYrMVfAb9Gd0WvAjEKujT4IMvmXmc-9hAIdeDjyW3iT6TqcpCzOTgX5_nciMDPfS91ViVFlyaIxtwaYqtCu7SNEA"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="4 Mengenal Linux (GNU Linux" class="navigation navigation-prev " aria-label="Previous page: 4 Mengenal Linux (GNU Linux)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html" class="navigation navigation-next " aria-label="Next page: 6 Linux File Hierarchy Structure">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"5 Vagrant Virtualization","level":"1.4.5","depth":2,"next":{"title":"6 Linux File Hierarchy Structure","level":"1.4.6","depth":2,"path":"2 Linux Operation System/6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.md","ref":"2 Linux Operation System/6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.md","articles":[]},"previous":{"title":"4 Mengenal Linux (GNU Linux)","level":"1.4.4","depth":2,"path":"2 Linux Operation System/4 Mengenal Linux (GNU Linux","ref":"2 Linux Operation System/4 Mengenal Linux (GNU Linux","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"2 Linux Operation System/5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.md","mtime":"2022-09-15T11:20:06.883Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2022-09-15T12:08:18.169Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

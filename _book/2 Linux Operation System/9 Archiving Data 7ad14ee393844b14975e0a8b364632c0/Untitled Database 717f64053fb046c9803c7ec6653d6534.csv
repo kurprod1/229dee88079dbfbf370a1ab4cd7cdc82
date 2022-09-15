@@ -1,0 +1,9 @@
+﻿Opsi panjang,Opsi pendek,Deskripsi
+--create,c,Creates a tar archive
+--concatenate,A,Appends tar files to an archive
+--append,r,Appends files to the end of an archive
+--update,u,Appends files newer than copy in archive
+--diff or -- compare,d,Find differences between archive and file system
+--file archive,f,Use archive file or device ARCHIVE
+--list,t,Lists the contents of a tarball
+--extract or --get,x,Extracts files from an archive

@@ -1,0 +1,880 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>6 Linux File Hierarchy Structure · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html" />
+    
+    
+    <link rel="prev" href="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../0 Introduction/">
+            
+                <a href="../0 Introduction/">
+            
+                    
+                    0 Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                <a href="../0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                <a href="../0 Introduction/2 Membuat Objektif Belajar f24906ab8d184946b752d0951375d455.html">
+            
+                    
+                    2 Membuat Objektif Belajar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                <a href="../0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.html">
+            
+                    
+                    3 Your Big Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                <a href="../0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.html">
+            
+                    
+                    4 Newbie in Tech Read This!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                <a href="../0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.html">
+            
+                    
+                    5 Hmmm… DevOps
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../1 Network Overview/">
+            
+                <a href="../1 Network Overview/">
+            
+                    
+                    1 Network Overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                <a href="../1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                <a href="../1 Network Overview/2 Project For This Section adfa3b21868242f6a23b573a71d88532.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                <a href="../1 Network Overview/3 Networking Fundamental aa463d38f1514b41ad2ed186b40ba81b.html">
+            
+                    
+                    3 Networking Fundamental
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                <a href="../1 Network Overview/4 OSI dan TCP IP ce5d0a244fb644ff830c8e9c22ddfc8d.html">
+            
+                    
+                    4 OSI dan TCP IP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                <a href="../1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.html">
+            
+                    
+                    5 IP Address
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                <a href="../1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.html">
+            
+                    
+                    6 Menggambar dan Membaca Topologi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                <a href="../1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.html">
+            
+                    
+                    7 Routing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    2 Linux Operation System
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                <a href="1 Introduction 946a966a89534541a7be54e3ffd16d19.html">
+            
+                    
+                    1 Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                <a href="2 Project For This Section 3beb6904504a433cba3a0cdae17f8777.html">
+            
+                    
+                    2 Project For This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                <a href="3 Pengenalan Server 524407f970fe40938b4a70eeebe04add.html">
+            
+                    
+                    3 Pengenalan Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="4 Mengenal Linux (GNU Linux">
+            
+                <span>
+            
+                    
+                    4 Mengenal Linux (GNU Linux)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                <a href="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html">
+            
+                    
+                    5 Vagrant Virtualization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.6" data-path="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                <a href="6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.html">
+            
+                    
+                    6 Linux File Hierarchy Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                <a href="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html">
+            
+                    
+                    7 Linux Command Line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                <a href="8 Text & File Manipulation 83f56a8334de4d7da37aa9602d08a469.html">
+            
+                    
+                    8 Text & File Manipulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                <a href="9 Archiving Data 7ad14ee393844b14975e0a8b364632c0.html">
+            
+                    
+                    9 Archiving Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                <a href="10 Users & Groups 8bbfbd7660f64a6a9814e8437abccf16.html">
+            
+                    
+                    10 Users & Groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                <a href="11 Permissions 2009b8c645a04797a23c1dc2c27dcf3c.html">
+            
+                    
+                    11 Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                <a href="12 Package Managements 5a122c8b22ae4a1484a9b27691815718.html">
+            
+                    
+                    12 Package Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                <a href="13 Service Managements 9ff1af84c9174622aa147cdb7b4d15b0.html">
+            
+                    
+                    13 Service Managements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                <a href="14 Roadmap c8987bb04840426fbec94cf1a12d38f5.html">
+            
+                    
+                    14 Roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                <a href="15 Setup Webserver & Applications e82ea21c667c41ab95d2672ce7d31441.html">
+            
+                    
+                    15 Setup Webserver & Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                <a href="16 Shell Scripting b368df8094b744c09b7eec62badd232f.html">
+            
+                    
+                    16 Shell Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                <a href="17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.html">
+            
+                    
+                    17 Membuat Automasi Setup Webserver dengan Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" data-path="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                <a href="18 Summary b819ffcae89f4fcb968862187ebb22cf.html">
+            
+                    
+                    18 Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >6 Linux File Hierarchy Structure</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="6-linux-file-hierarchy-structure">6. Linux File Hierarchy Structure</h1>
+<p>Created: June 23, 2022 2:38 PM</p>
+<h1 id="apa-itu-struktur-direktori"><strong>Apa itu struktur direktori?</strong></h1>
+<p>Pada sistem operasi Linux terdapat susunan direktori yang harus diketahui. Susunan direktori tersebut tentunya memiliki kegunaannya masing masing. Apa saja struktur direktori pada Linux?</p>
+<p>Kita perlu mempelajari hal ini agar kita benar-benar tahu seperti apa isi dari sistem operasi GNU/Linux yang akan kita kelola saat menjadi DevOps nanti. Kita harus tahu folder A untuk apa, folder B untuk menyimpan file apa, folder C sebaiknya tidak boleh dihapus, dst.</p>
+<p>Analoginya simple. Ibarat rumah, kita harus tau masing-masing ruangan di rumah tersebut fungsinya untuk apa. Agar kita tidak tersesat, agar kita tidak salah meletakkan barang, maupun agar kita tidak salah membuang barang yang ada didalamnya.</p>
+<p>Sebagai pemilik rumah, kita wajib menguasai seluk beluk ruangan dari rumah kita sendiri. Sebagai DevOps kita wajib mengetahui seluk beluk struktur direktori dari server Linux kita sendiri.</p>
+<h2 id="penjelasan-struktur-direktori"><strong>Penjelasan Struktur Direktori</strong></h2>
+<p>Struktur direktori GNU/Linux sangat berbeda dengan struktur direktori windows/dos dimana dalam GNU/Linux tidak akan ditemukan drive a, drive c dan drive lainnya karena GNU/Linux menganut satu direktori utama yaitu direktori / (dibaca root). Dimana nantinya keseluruhan direktori dan file lainnya akan berada di dalam/dibawah direktori / ini.</p>
+<p><img src="https://lh3.googleusercontent.com/WDd-vAjLGHcXbGJ20NX8BwqPo0eHwBsN_sdCuCjN2jsvZw-0ZBITHOF5ODThmAGHDFZK3g7unKWX1FMk_pwvFgjdqX1TsUxq_EfqVk2SNuDhkg9QuHg5HABxMeUyqTL989XS2ZhyhYayNvS6EA" alt="*Struktur direktori di Linux*"></p>
+<p><em>Struktur direktori di Linux</em></p>
+<p>Seluruh folder yang ada di bawah /, memiliki fungsi nya masing-masing sebagai berikut :</p>
+<table>
+<thead>
+<tr>
+<th>/</th>
+<th>Dibaca root, merupakan direktori utama sistem Linux. Ibaratnya seperti C: pada windows.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/bin</td>
+<td>Direktori yang berisi binary files yang dapat dieksekusi oleh users system. Direktori ini menghandle perintah-perintah standar GNU/Linux diantaranya ls, cp, mv dan beberapa lainnya.</td>
+</tr>
+<tr>
+<td>/boot</td>
+<td>Direktori yang berisikan file-file yang dibutuhkan saat proses booting termasuk didalamnya adalah kernel image GNU/Linux.</td>
+</tr>
+<tr>
+<td>/dev</td>
+<td>Direktori yang merepresentasikan/mewakili device hardware. Dalam GNU/Linux everything is files, dimana hard disk, cdrom, dll itu dianggap sebagai file. Semua device hardware komputer direpresentasikan sebagai file pada direktori ini.</td>
+</tr>
+<tr>
+<td>/etc</td>
+<td>Direktori yang berisi file-file konfigurasi system dan layanan. File-file konfigurasi ini dibutuhkan oleh paket-paket lain untuk menjaga perilaku system.</td>
+</tr>
+<tr>
+<td>/home</td>
+<td>Merupakan home direktori atau area kerja dari masing-masing user GNU/Linux kecuali user root(super user). User-user biasa menimpan data disini.</td>
+</tr>
+<tr>
+<td>/lib</td>
+<td>Merupakan direktori file-file library GNU/Linux yang mendukung binary files baik yang berada didirektori /bin maupun /sbin.</td>
+</tr>
+<tr>
+<td>/mnt</td>
+<td>Direktori yang disiapkan untuk mounting point device storage seperti flashdisk dan harddisk eksternal.</td>
+</tr>
+<tr>
+<td>/media</td>
+<td>Direktori memounting/mengaitkan media removable storages seperti harddisk eksternal, floppy disk, cdrom/dvdrom, flashdisk, digital kamera maupun media lainnya. Mirip seperti /mnt.</td>
+</tr>
+<tr>
+<td>/opt</td>
+<td>Direktori tempat instalasi paket yang diluar dari repository resmi.</td>
+</tr>
+<tr>
+<td>/proc</td>
+<td>Merupakan direktori yang unik yang dinamis karena direktori ini berisi virtual file system yang menyediakan akses informasi cpu, ram, kernel, suhu, dll secara realtime.</td>
+</tr>
+<tr>
+<td>/root</td>
+<td>Home direktori khusus super user (user root). Direktori ini sengaja dipisahkan dari direktori home user biasa di /home untuk menghandle jika partisi /home gagal di mounting maka system secara keseluruhan dapat diselamatkan oleh root. /root dibaca slash root.</td>
+</tr>
+<tr>
+<td>/sbin</td>
+<td>Direktori ini pada prinsipnya sama dengan direktori /bin yang berisi file-file binary. Namun direktori /sbin ini hanya dapat diakses oleh user root dalam kondisi sistem normal. Users biasa tidak memiliki akses untuk menjalankan binary files di direktori ini</td>
+</tr>
+<tr>
+<td>/tmp</td>
+<td>Direktori yang berisi temporary files artinya file-file yang sifatnya hanya dibutuhkan sementara dan akan hilang setiap komputer booting. Direktori ini dapat diakses oleh semua users sistem.</td>
+</tr>
+<tr>
+<td>/usr</td>
+<td>Bisa dikatakan sebagai direktori utama dibawah main direktori tempat diletakkannya file- file program aplikasi, dokumentasi, source kernel dan x-window system dari distribusi GNU/Linux yang digunakan. Mirip seperti Program Files pada Windows.</td>
+</tr>
+<tr>
+<td>/var</td>
+<td>Direktori yang diperuntukkan menyimpan file-file yang akan terus membesar ukurannya. Biasa digunakan untuk menyimpan file-file log system, file email, file-file web, file database.</td>
+</tr>
+</tbody>
+</table>
+<p>Sampai tahap ini, minimal kita sudah sekilas mengetahui fungsi-fungsi dari masing-masing folder yang ada di Linux</p>
+<h2 id="penulisan-struktur-direktori"><strong>Penulisan Struktur Direktori</strong></h2>
+<p>Penulisan struktur direktori ini sangat penting dipahami untuk kepentingan penggunaan perintah-perintah command Line Linux nantinya. Karena salah satu huruf saja saat mengetikkan penulisan struktur direktori, maka dianggap oleh sistem Linux salah. Ketika dianggap salah, maka perintah-perintah yang ingin kita jalankan tidak akan bekerja.</p>
+<p>Pada penulisan struktur direktori, terdapat 2 cara penulisan. Yaitu penulisan alamat folder secara lengkap, serta penulisan alamat folder berdasarkan posisi kita berada. Kita coba bahas satu persatu.</p>
+<h3 id="penulisan-alamat-lengkap"><strong><em>Penulisan Alamat Lengkap</em></strong></h3>
+<p>Coba perhatikan gambar dibawah :</p>
+<p><img src="https://lh3.googleusercontent.com/UdcnXY7Wn420QKSuViZEiZ4Eje9YlVJvmctZlWjoeYtU00EyEum3lbMOnKs_SedukUcTsIL7211VUl_2iilioSjCUfgBZOV8a7pQNanZubRcnx1WDn_jX5dy6ztfVAkkERJlHhGssNSEpluIhw" alt="*Alamat direktori 1*"></p>
+<p><em>Alamat direktori 1</em></p>
+<p>Nama lain dari penulisan alamat lengkap adalah <strong>absolute path</strong>. Pada gambar tersebut terlihat ada folder bernama musik yang berada di dalam folder home dan folder home ada di dalam folder utama /. Nah jika kita ditanya bagaimanakah penulisan dari folder musik? Penulisan hirarki folder ditulis lengkap dari folder utama (/) hingga folder yang dituju dengan dipisahkan tanda / di masing-masing foldernya. Sehingga penulisannya menjadi seperti ini :</p>
+<pre><code class="lang-bash">/home/musik
+</code></pre>
+<p>Contoh lain :</p>
+<p><img src="https://lh4.googleusercontent.com/iFpL5f2ZYQHk_dcqzx5VIJhU0NIhCJccfuanyin5RWUu3xz-NTcekM0dJcUm67k4A6lc-a-BVMbfY1naqaOiPQiyKRgFZUUWS8GTvvk0NvPfB1rIIXBnaIvkv1Sn7ibIMo2MhvTVRFLjW1YC9Q" alt="*Alamat direktori 2*"></p>
+<p><em>Alamat direktori 2</em></p>
+<p>Pada gambar tersebut ada dua hierarki yang terpisah. Maka jika ditanya bagaimana penulisan dari folder sosial dan keuangan? Maka penulisannya menjadi seperti ini :</p>
+<p><code>Hierarki 1 : /media/flashdisk/cilsy/sosial</code></p>
+<p><code>Hierarki 2 : /tmp/kasus/keuangan</code></p>
+<p>Lalu jika ditanya lagi, bagaimanakah penulisan dari folder media dan kasus? Maka menjadi seperti ini :</p>
+<p><code>Hierarki 1 : /media</code></p>
+<p><code>Hierarki 2 : /tmp/kasus</code></p>
+<p>Sebenarnya kita cukup membayangkan hierarki folder dan penulisan ini seperti layaknya kita melakukan klik folder, lalu di dalam folder tersebut ada folder lain lagi, di klik lagi ada folder lagi, dst.</p>
+<p>Keuntungan dari teknik alamat lengkap ini adalah minim kesalahan. Selama kita menulis alamat lengkapnya secara benar, maka kita tidak perlu khawatir salah melakukan perintah command line tertentu nantinya.</p>
+<p>Kekurangan dari teknik ini adalah kita akan cukup panjang saat mengetik alamat foldernya. Apalagi jika letak foldernya sangat dalam dan jauh. Misalnya saja :</p>
+<pre><code class="lang-bash">/var/www/html/bhinneka/admin/panel/configuration/beta1/access
+</code></pre>
+<p>Akan sangat melelahkan bukan jika harus terus mengetik sepanjang itu?</p>
+<h3 id="penulisan-alamat-berdasarkan-posisi-kita-berada"><strong><em>Penulisan Alamat berdasarkan posisi kita berada</em></strong></h3>
+<p>Untuk mengatasi penulisan alamat yang terlalu panjang, kita bisa menggunakan teknik yang satu ini. Teknik ini memperdulikan posisi kita berada saat melakukan penulisan alamat. Sehingga file atau folder yang ada didalam posisi kita saat ini berada tidak perlu di tulis dengan tanda / dan folder-folder diatas posisi kita berada tidak perlu di tulis kembali. Nama lain dari penulisan alamat berdasarkan posisi adalah <strong>relative path</strong>.</p>
+<p>Misalnya masih pada kasus yang sama dengan folder musik, namun disini dianggap kita berada di dalam folder home.</p>
+<p><img src="https://lh6.googleusercontent.com/ghIQab6rwbDdFg5qiw_Yt3La5dIMEa4LJAsVBhpr645jvDm5oOwX78GTxtwIoVZ-_hYb41zixwkQeRhIbw2J94XfGcQAyRpk9QgfP-632P9O8pxzgUaokj1n2f-A8F3w7pTEu2WMhTlkY0tlig" alt="*Alamat direktori 3*"></p>
+<p><em>Alamat direktori 3</em></p>
+<p>Maka ketika kita diminta seperti apakah penulisan folder musik, jawabannya seperti ini :</p>
+<pre><code class="lang-bash">musik
+</code></pre>
+<p>Jadi sama sekali tidak ada penulisan lengkap mulai dari /home/musik. Melainkan cukup musik saja.</p>
+<p>Kita ambil lagi contoh yang ini :</p>
+<p><img src="https://lh4.googleusercontent.com/mEUL9_3XwzRqy5RrdIvfrv-jjaoLuWIQhPXe3tweX6KQE6zRGgmih9sjYdCQpWPsL1tm0g2kV7HoxJ7lzIcjUMtrdMYACB3_OEw7MZoQcRToWrwR0_u6WfVJptzMVCyNnlu38XE-xqCFdl4_1g" alt="*Alamat direktori 4*"></p>
+<p><em>Alamat direktori 4</em></p>
+<p>Pada gambar diatas kita diposisikan berada di dalam folder flashdisk. Sehingga jika ditanya penulisan dari folder sosial, adalah seperti ini :</p>
+<pre><code class="lang-bash">cilsy/sosial
+</code></pre>
+<p>Didepan folder cilsy, sama sekali tidak ada tanda /. Karena folder cilsy berada didalam posisi kita berada sekarang.</p>
+<p>Lalu bagaimana dengan folder keuangan? Bisakah kita menuliskannya cukup dengan begini ? :</p>
+<pre><code class="lang-bash">kasus/keuangan
+</code></pre>
+<p>atau :</p>
+<pre><code class="lang-bash">keuangan
+</code></pre>
+<p>Jawabannya adalah tidak bisa. Karena kita tidak berada didalam folder tmp maupun folder kasus. Sehingga jika posisi kita berada masih di folder flashdisk tapi diminta untuk menuliskan letak folder keuangan, kita tetap harus menuliskannya lengkap seperti ini :</p>
+<pre><code class="lang-bash">/tmp/kasus/keuangan
+</code></pre>
+<p>Namun ketika kita sudah pindah ke folder kasus seperti gambar berikut :</p>
+<p><img src="https://lh3.googleusercontent.com/ik7xolebdZt0FJ2ioJKQJKLGLVdvqLdmYOvW5mTuHXMJL3976l_Tp42TJ8pzVosO-pAzPC7AM1xL32zO2CvgoDcHZU9_tI_Qb1IQpamDQ98hCw9ppXgD14vcW054wx4Qaokv1sC1KM1zQy4pSg" alt="*Alamat direktori 5*"></p>
+<p><em>Alamat direktori 5</em></p>
+<p>Barulah kita bisa menuliskan keuangan seperti ini :</p>
+<pre><code class="lang-bash">keuangan
+</code></pre>
+<p>Kalau kita ada di folder tmp, bagaimana kah penulisan alamat folder keuangan?</p>
+<pre><code class="lang-bash">kasus/keuangan
+</code></pre>
+<p>Kalau kita ada di folder /, bagaimana kah penulisan alamat folder keuangan?</p>
+<pre><code class="lang-bash">tmp/kasus/keuangan
+</code></pre>
+<p>Kesimpulannya teknik ini dapat lebih mempersingkat penulisan, namun memang sangat rawan kesalahan. Teknik ini biasa digunakan ketika banyak command yang harus dilakukan didalam folder yang sangat dalam posisinya. Kalau belum terlalu paham betul dengan konsep ini, sebaiknya selalu gunakan teknik yang penulisan alamat lengkap.</p>
+<h1 id="exercise"><strong>Exercise</strong></h1>
+<p><strong>Teori</strong></p>
+<ol>
+<li>Kenapa kita perlu belajar Struktur direktori Linux?</li>
+</ol>
+<p><strong>Praktek</strong></p>
+<p>Waktu pengerjaan : 7 menit.</p>
+<p>Masing-masing peserta selesaikan soal dibawah ini dengan cara mengkopi jawabannya ke kolom chat saat pembelajaran.</p>
+<p><img src="https://lh6.googleusercontent.com/13dAQ7oWkQgJw11kI60cOwL2_hQxzt-tmpNnXxeJKSFnNahtveeugisp0KDbNnx-MNuYe2bFf4yjOFhwUjgCGuc-6Dv9liRs5BBKfwCSAFxn25ijQWb9FLfnAhRR65vDp0NP3PZy4zTrR8L2Ig" alt="*Struktur direktori di Linux*"></p>
+<p><em>Struktur direktori di Linux</em></p>
+<ol>
+<li>Tuliskan alamat dari folder <strong>Mail</strong> yang berada didalam folder <strong>yxz</strong> (abaikan posisi).</li>
+<li>Tuliskan alamat folder <strong>howto</strong> yang berada didalam <strong>doc</strong> jika posisi kita sedang berada di dalam folder <strong>share</strong>.</li>
+<li>Tuliskan alamat folder <strong>packages</strong> yang berada didalam <strong>doc</strong> jika posisi kita sedang berada di dalam folder <strong>X11R6</strong></li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.html" class="navigation navigation-prev " aria-label="Previous page: 5 Vagrant Virtualization">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.html" class="navigation navigation-next " aria-label="Next page: 7 Linux Command Line">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"6 Linux File Hierarchy Structure","level":"1.4.6","depth":2,"next":{"title":"7 Linux Command Line","level":"1.4.7","depth":2,"path":"2 Linux Operation System/7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.md","ref":"2 Linux Operation System/7 Linux Command Line df552fa6b635488ba3e0c8449e7b5443.md","articles":[]},"previous":{"title":"5 Vagrant Virtualization","level":"1.4.5","depth":2,"path":"2 Linux Operation System/5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.md","ref":"2 Linux Operation System/5 Vagrant Virtualization c17ec6523f014efe99831a019c4c18ed.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"2 Linux Operation System/6 Linux File Hierarchy Structure 9819fc6624154c01a1f7352f42f15753.md","mtime":"2022-09-15T11:21:40.177Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2022-09-15T12:08:18.169Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
