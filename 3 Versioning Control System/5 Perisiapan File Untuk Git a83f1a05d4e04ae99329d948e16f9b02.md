@@ -31,4 +31,4 @@ Setelah itu buat beberapa direktori dengan nama **vendor**, **cache**, dan **upl
 
 Sehingga jika semua sudah kita buat akan menghasilkan seperti dibawah ini.
 
-[https://lh3.googleusercontent.com/omB-KfWs2J7WxRmNbDFNfDMmd-IiTKPFowCNQeRtsv8oK63iFIhJrssxbxHpCdtMhFT4YVqRDF6mMs3BIGrEN6Db_BGhhx8s6ozxfoUoh5-UAIkweaG1sphnXc_Um_W5Qean_DSXCkNYE9e91w](https://lh3.googleusercontent.com/omB-KfWs2J7WxRmNbDFNfDMmd-IiTKPFowCNQeRtsv8oK63iFIhJrssxbxHpCdtMhFT4YVqRDF6mMs3BIGrEN6Db_BGhhx8s6ozxfoUoh5-UAIkweaG1sphnXc_Um_W5Qean_DSXCkNYE9e91w)
+![https://lh3.googleusercontent.com/omB-KfWs2J7WxRmNbDFNfDMmd-IiTKPFowCNQeRtsv8oK63iFIhJrssxbxHpCdtMhFT4YVqRDF6mMs3BIGrEN6Db_BGhhx8s6ozxfoUoh5-UAIkweaG1sphnXc_Um_W5Qean_DSXCkNYE9e91w](https://lh3.googleusercontent.com/omB-KfWs2J7WxRmNbDFNfDMmd-IiTKPFowCNQeRtsv8oK63iFIhJrssxbxHpCdtMhFT4YVqRDF6mMs3BIGrEN6Db_BGhhx8s6ozxfoUoh5-UAIkweaG1sphnXc_Um_W5Qean_DSXCkNYE9e91w)

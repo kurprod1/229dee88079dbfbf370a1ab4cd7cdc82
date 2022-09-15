@@ -4,7 +4,7 @@ Created: July 14, 2022 1:30 PM
 
 Pada proyek pengembangan software yang melibatkan banyak orang (tim), kita tidak hanya akan menyimpan sendiri repository proyeknya. Semua tim yang terlibat dalam pengkodean (coding) akan menyimpan repository lokal di komputernya masing-masing. Setelah itu, akan dilakukan penggabungan ke repository inti atau remote. Biasanya akan ada repository pusat atau untuk menyimpan source code yang sudah digabungkan (merge) dari beberapa orang.
 
-[*Ilustrasi remote repository*](https://lh6.googleusercontent.com/4o0fqExZs9RYO5aOHfzo5qvSmrI-38J1b8OkgN9gDxfjhRee7Ga76DYRfziAGcmFZwL6JssGGiZnMJUejxbrm3FPMIXmIQ4jlHA8H2yXSYqp-2aAuv0UnCLcuVHQTVR3ywgga-rSwbC6xzgD7w)
+![*Ilustrasi remote repository*](https://lh6.googleusercontent.com/4o0fqExZs9RYO5aOHfzo5qvSmrI-38J1b8OkgN9gDxfjhRee7Ga76DYRfziAGcmFZwL6JssGGiZnMJUejxbrm3FPMIXmIQ4jlHA8H2yXSYqp-2aAuv0UnCLcuVHQTVR3ywgga-rSwbC6xzgD7w)
 
 *Ilustrasi remote repository*
 
@@ -14,13 +14,13 @@ Di mana menyimpan repository remote-nya? Bisa di server kantor atau bisa juga me
 
 Silahkan buka Github, kemudian buat sebuah repository dengan nama belajar-git seperti berikut ini.
 
-[*Membuat repository 1*](https://lh4.googleusercontent.com/sbdVSqZzeKIeXjS9rJyrqwmpsoNiHPyznmCp104M1nuD8Czop4Pf1MJWRlHfuzwBmzcISk01u1c0SyZMFpg6BSGeKWiJgPLmP-dPXVoat-TpKmsx5qnGn-wNaGuo6yymG79JgyfcmKlc3l5ERg)
+![*Membuat repository 1*](https://lh4.googleusercontent.com/sbdVSqZzeKIeXjS9rJyrqwmpsoNiHPyznmCp104M1nuD8Czop4Pf1MJWRlHfuzwBmzcISk01u1c0SyZMFpg6BSGeKWiJgPLmP-dPXVoat-TpKmsx5qnGn-wNaGuo6yymG79JgyfcmKlc3l5ERg)
 
 *Membuat repository 1*
 
 Maka sekarang kita punya repository kosong bernama belajar-git di Github.
 
-[*Membuat repository 2*](https://lh5.googleusercontent.com/QG97J3unfsEhOnEdh0pRn0W68c07Lu6m8eKyp-aEg2TJ0c1ZVJsucjUDK4qqKb4uR0ug7swpqLC164TDBJ1QlsWHP61xcTqcUbFTdtFIcoTltmhVqeYC2rz3ddybRGcVZIyWa78yUfrTHxU_OA)
+![*Membuat repository 2*](https://lh5.googleusercontent.com/QG97J3unfsEhOnEdh0pRn0W68c07Lu6m8eKyp-aEg2TJ0c1ZVJsucjUDK4qqKb4uR0ug7swpqLC164TDBJ1QlsWHP61xcTqcUbFTdtFIcoTltmhVqeYC2rz3ddybRGcVZIyWa78yUfrTHxU_OA)
 
 *Membuat repository 2*
 
@@ -45,13 +45,13 @@ SSH memungkinkan kita untuk melakukan push ke repository github tanpa login. Ber
 
 Pertama-tama kita akan membuat sebuah SSH Key. SSH Key ini adalah sebuah kombinasi 2 file terenkripsi (publik dan private) yang akan dicocokkan antara di server Remote repository dengan di lokal (pc/laptop). Ketika 2 file ini dinyatakan cocok, maka kita dianggap sebagai orang yang punya autentikasi tanpa perlu memasukkan password dan username lagi. Cara untuk membuat ssh key adalah masuk ke terminal dan ketikkan ssh-keygen lalu enter. Untuk passphrase dikosongkan saja.
 
-[*Membuat SSH-Key*](https://lh6.googleusercontent.com/gU4GCngoUKdqf1zH4C6z3N1ntJswiOd4pdQmmisG4SYQbY0qrfPD-xJM8gPTvONR3EqnS9dSrjL4gRVjgzJq5c_X2XJcICx51vWsQ-M4Fwr6asZK9zV-cXEaFHyLwoWkZhCqXDGqMpw3rILLgg)
+![*Membuat SSH-Key*](https://lh6.googleusercontent.com/gU4GCngoUKdqf1zH4C6z3N1ntJswiOd4pdQmmisG4SYQbY0qrfPD-xJM8gPTvONR3EqnS9dSrjL4gRVjgzJq5c_X2XJcICx51vWsQ-M4Fwr6asZK9zV-cXEaFHyLwoWkZhCqXDGqMpw3rILLgg)
 
 *Membuat SSH-Key*
 
 Maka di dalam directory .ssh akan tercipta file baru yaitu id_rsa sebagai private key dan id_rsa.pub sebagai public key.
 
-[*Public key dan private key*](https://lh5.googleusercontent.com/3tO5-nQfQxDeFK_jit4Ft2KJoJo1DP-sR2WlRjTJssCDhxOxvo9DdPoK3AlU4KjTl1Nq8FvmkhErAeQp6lAU7dpFJM8qVsEncJYTfBqpq1SHmf93enANXx2vFSFVgI6R3s-SziSrkTepbXsltg)
+![*Public key dan private key*](https://lh5.googleusercontent.com/3tO5-nQfQxDeFK_jit4Ft2KJoJo1DP-sR2WlRjTJssCDhxOxvo9DdPoK3AlU4KjTl1Nq8FvmkhErAeQp6lAU7dpFJM8qVsEncJYTfBqpq1SHmf93enANXx2vFSFVgI6R3s-SziSrkTepbXsltg)
 
 *Public key dan private key*
 
@@ -89,7 +89,7 @@ cat ~/.ssh/id_rsa.pub
 
 Copy isi teks yang ditampilkan. Lalu kembali ke Github, masuk ke menu **Settings> SSH and GPG Keys**, buat key baru dengan mengklik **New SSH Key**. Lalu masukkan key yang sudah dicopy.
 
-[*Meng-input SSH Key di Github*](https://lh4.googleusercontent.com/0qf3CZdRWMXwyvQc3X2T5bLmtRgaOJatKoWe7OZAdbBLRwEzmrFRy_nvfwuLbqXl9ZvyNz-sAS1kV3Upv6Cx8_glQCnMA6M0TPxeDMe5v4BX7x-2aAXZjKvqbaqjit_KN8s6ryx60vwjx2XQPQ)
+![*Meng-input SSH Key di Github*](https://lh4.googleusercontent.com/0qf3CZdRWMXwyvQc3X2T5bLmtRgaOJatKoWe7OZAdbBLRwEzmrFRy_nvfwuLbqXl9ZvyNz-sAS1kV3Upv6Cx8_glQCnMA6M0TPxeDMe5v4BX7x-2aAXZjKvqbaqjit_KN8s6ryx60vwjx2XQPQ)
 
 *Meng-input SSH Key di Github*
 
@@ -109,7 +109,7 @@ Pastikan tidak ada pesan error yang muncul untuk memastikan bahwa konektifitas G
 
 Silahkan ketik perintah *git remote -v* untuk melihat remote apa saja yang sudah ditambahkan.
 
-[*Mengubah dan menghapus remote repository*](https://lh6.googleusercontent.com/0OzTxbw3w2sAwcF0vcdIXQyS84muPH0Stm85pzWZsd7QQ8sb5Rls1sXab3SHJ3jXB5DY8_Jc-Xg_uKhvLFTL9IwQYo5THDQ9vN0wYz3WLpzDB6d8lzmSkMBkR8UWXCbtb5kMF7nwcx2Yb0XYdQ)
+![*Mengubah dan menghapus remote repository*](https://lh6.googleusercontent.com/0OzTxbw3w2sAwcF0vcdIXQyS84muPH0Stm85pzWZsd7QQ8sb5Rls1sXab3SHJ3jXB5DY8_Jc-Xg_uKhvLFTL9IwQYo5THDQ9vN0wYz3WLpzDB6d8lzmSkMBkR8UWXCbtb5kMF7nwcx2Yb0XYdQ)
 
 *Mengubah dan menghapus remote repository*
 
@@ -141,7 +141,7 @@ Keterangan: github adalah nama remote, master adalah nama branch tujuan.
 
 Mari kita coba, pastikan repository lokal kita sudah memiliki remote.
 
-[*Mengirim revisi*](https://lh3.googleusercontent.com/1XKFJiEUyIkbj-SdMj8rNJAljb9vpOVrd5cwsL7lvHbL9z1tvVscYcQ9NG6F33n0Da7-rUQoBkHcAGjnRF7eoLPMNWHBhPylRX9H4vsU-3hBlkZmDls7cgK5qv4IN9_9GB-JYuyMj0ijdkP0Jw)
+![*Mengirim revisi*](https://lh3.googleusercontent.com/1XKFJiEUyIkbj-SdMj8rNJAljb9vpOVrd5cwsL7lvHbL9z1tvVscYcQ9NG6F33n0Da7-rUQoBkHcAGjnRF7eoLPMNWHBhPylRX9H4vsU-3hBlkZmDls7cgK5qv4IN9_9GB-JYuyMj0ijdkP0Jw)
 
 *Mengirim revisi*
 
@@ -154,25 +154,25 @@ git commit -m "menambahkan beberapa revisi"
 
 Sebagai contoh, disini ada 5 catatan revisi.
 
-[*Menampilkan catatan revisi*](https://lh4.googleusercontent.com/aUAKE-t0CmO6azSGbxfCQWfNt3phNNmjTSXJgTN6owTMYn4xxLmsfRkFZl5U0RlYZz44bgPaTlI2nCcabAtTJ415VDSY-h4L8xEJm7xjxreHryQQOZ8HWx2xSUfQDvk0Z9c11AZ148iHw0kRpg)
+![*Menampilkan catatan revisi*](https://lh4.googleusercontent.com/aUAKE-t0CmO6azSGbxfCQWfNt3phNNmjTSXJgTN6owTMYn4xxLmsfRkFZl5U0RlYZz44bgPaTlI2nCcabAtTJ415VDSY-h4L8xEJm7xjxreHryQQOZ8HWx2xSUfQDvk0Z9c11AZ148iHw0kRpg)
 
 *Menampilkan catatan revisi*
 
 Maka tinggal kita kirim saja dengan perintah git push github master. Jika muncul seperti ini, artinya push sukses dilakukan.
 
-[*Melakukan push*](https://lh5.googleusercontent.com/feDUeeLtiS_5IPqJpyrzi_t-_mtQCh4EPjZ9FdhMz9ioDeM0W-d6zP_BjS6evuuNCkJBuvCQfxm38lA2hUX3ERtVqGrunpdR5lnbF_tBzUJi8Mgtqxn3UxJwYcdyNSh3dQ9D6xxDflXxik-n3w)
+![*Melakukan push*](https://lh5.googleusercontent.com/feDUeeLtiS_5IPqJpyrzi_t-_mtQCh4EPjZ9FdhMz9ioDeM0W-d6zP_BjS6evuuNCkJBuvCQfxm38lA2hUX3ERtVqGrunpdR5lnbF_tBzUJi8Mgtqxn3UxJwYcdyNSh3dQ9D6xxDflXxik-n3w)
 
 *Melakukan push*
 
 Sekarang lihat ke Github, pasti semuanya sudah ter-upload ke sana.
 
-[*Memeriksa hasil push*](https://lh4.googleusercontent.com/5cti9zBojQmqod0vPgJZYq8EOsp3QRsqr8P2GPJXuBn0rDzCIYmBKfbav2uOCYpAPCZnNHKge5n556vuss42UET9WctVY33-zvU_Y_BIPvA6ffJ8i5KGNRXTb5j163HzOEBqWxVYybEfJHp2DA)
+![*Memeriksa hasil push*](https://lh4.googleusercontent.com/5cti9zBojQmqod0vPgJZYq8EOsp3QRsqr8P2GPJXuBn0rDzCIYmBKfbav2uOCYpAPCZnNHKge5n556vuss42UET9WctVY33-zvU_Y_BIPvA6ffJ8i5KGNRXTb5j163HzOEBqWxVYybEfJHp2DA)
 
 *Memeriksa hasil push*
 
 Coba buat revisi lagi di file index.html. Misalnya perubahannya seperti ini:
 
-[*Melakukan perubahan file index.html*](https://lh4.googleusercontent.com/PFVOkhyQc5LUhn7-y4hs-aEOJEOJGsRYiJCsHTt9UlZofrNMaV2tR3rWYU_dcsvRFGTjXEaDA3bTagbGPaRrqUabEAte-RV7DEQTIKBKemthsY6ZJlmK9N6IoGQXcjIAXF_H7KcPtP6ym4FUOA)
+![*Melakukan perubahan file index.html*](https://lh4.googleusercontent.com/PFVOkhyQc5LUhn7-y4hs-aEOJEOJGsRYiJCsHTt9UlZofrNMaV2tR3rWYU_dcsvRFGTjXEaDA3bTagbGPaRrqUabEAte-RV7DEQTIKBKemthsY6ZJlmK9N6IoGQXcjIAXF_H7KcPtP6ym4FUOA)
 
 *Melakukan perubahan file index.html*
 
@@ -186,19 +186,19 @@ git push github master
 
 Jika berhasil, maka akan tampil seperti ini:
 
-[*Hasil push perubahan*](https://lh5.googleusercontent.com/DAPrtxezWQSkht1_SF50pefTCPkIGKEVwEcGzydaM2up4VOoU_ptOANY4DSvKUVfe6_NzrzEz2-wfv75_eYn5w15Y8eAHe-uiNQqbHTUFvWA1zro-8c6d1dPj5A-7t5opAYHGtPT3aGGYgNMZw)
+![*Hasil push perubahan*](https://lh5.googleusercontent.com/DAPrtxezWQSkht1_SF50pefTCPkIGKEVwEcGzydaM2up4VOoU_ptOANY4DSvKUVfe6_NzrzEz2-wfv75_eYn5w15Y8eAHe-uiNQqbHTUFvWA1zro-8c6d1dPj5A-7t5opAYHGtPT3aGGYgNMZw)
 
 *Hasil push perubahan*
 
 Periksa kembali repository di Github dan perhatikanlah perubahannya.
 
-[*Melihat hasil di Github*](https://lh3.googleusercontent.com/Pw1gHx3_TXYMDFrH6vl1aOx54ZOIc_PODVBXRHrQ4sbmalQ8DJGfDtRDwZ18nRqbzLt0O5Ds6qiVphb1Cn3cytlqzrWaJqQ-tVOBTj1a4WGcuFunnB7HfBAbOZrGK0noj6L2Uimb2aewDh3H6A)
+![*Melihat hasil di Github*](https://lh3.googleusercontent.com/Pw1gHx3_TXYMDFrH6vl1aOx54ZOIc_PODVBXRHrQ4sbmalQ8DJGfDtRDwZ18nRqbzLt0O5Ds6qiVphb1Cn3cytlqzrWaJqQ-tVOBTj1a4WGcuFunnB7HfBAbOZrGK0noj6L2Uimb2aewDh3H6A)
 
 *Melihat hasil di Github*
 
 Jika kita klik commit terakhir, maka kita akan dibawa ke *git diff*-nya Github. Di sana kita bisa melihat perubahan apa kita yang dilakukan pada commit tersebut.
 
-[*Melihat perbedaan di Github*](https://lh6.googleusercontent.com/R8-1HHM9fE3r0WMUU0GYBuFXUo9SadCsdfRnXe_5H2piR_mgM9rQAwBMa8eYfe8Jspx-HsTX-izFWANkqvlvZ7JmJuyp6DeasAWJu17FLYmu9ERoOw8enQK2kFim3ri3QgxiK5IuC4_zHvbF9A)
+![*Melihat perbedaan di Github*](https://lh6.googleusercontent.com/R8-1HHM9fE3r0WMUU0GYBuFXUo9SadCsdfRnXe_5H2piR_mgM9rQAwBMa8eYfe8Jspx-HsTX-izFWANkqvlvZ7JmJuyp6DeasAWJu17FLYmu9ERoOw8enQK2kFim3ri3QgxiK5IuC4_zHvbF9A)
 
 *Melihat perbedaan di Github*
 
@@ -206,7 +206,7 @@ Jika kita klik commit terakhir, maka kita akan dibawa ke *git diff*-nya Github. 
 
 Saat kita bekerja dengan repository yang memiliki banyak kontributor, kita seharusnya mengambil dulu revisi terbaru dari repository inti agar tidak bentrok. Misalnya begini, pada repository remote ada kontributor lain yang sudah menambahkan dan merubah sesuatu di sana. Maka kita harus mengambil perubahan tersebut, agar repository lokal kita tetap ter-update atau sama persis seperti repository remote.
 
-[*Mengambil revisi*](https://lh3.googleusercontent.com/c0IiqXL1i6i_K2dgxOm6jLGKB9XMo4eAqBzFqDB4PQ9-8QvKfwZfrXiJqJCf-PgGETFraB5ybJ1zAoGOjl---3qmkeAX8QZu1BK_zJzme9CWyIxGKA1xLC2KdJKqVMPG7k7-9hfhpolYCnh6HA)
+![*Mengambil revisi*](https://lh3.googleusercontent.com/c0IiqXL1i6i_K2dgxOm6jLGKB9XMo4eAqBzFqDB4PQ9-8QvKfwZfrXiJqJCf-PgGETFraB5ybJ1zAoGOjl---3qmkeAX8QZu1BK_zJzme9CWyIxGKA1xLC2KdJKqVMPG7k7-9hfhpolYCnh6HA)
 
 *Mengambil revisi*
 
@@ -225,25 +225,25 @@ Pemakaian salah satu keduanya tergantung dari situasi dan kondisi. Bila kita sud
 
 Sekarang mari kita coba praktekkan. Silahkan buka github, dan tambahkan file README.md melalui Github. Klik tombol add README.
 
-[*Mengambil revisi dengan git fetch*](https://lh4.googleusercontent.com/YrRzC_TYKDKa1wxkSIp1Ol3cCq9EXEVoT9cJFtp0evnOh5SUj9OSA4G5n99FpvUjfR9Lp2Qf-Q0Ghw8s7fHUlAo3TW4hGLt_pdH_ntTRdRdY_wH7cMVNOZ7HJu5KNTWcIUCvUVUQ5BYSVrh_kQ)
+![*Mengambil revisi dengan git fetch*](https://lh4.googleusercontent.com/YrRzC_TYKDKa1wxkSIp1Ol3cCq9EXEVoT9cJFtp0evnOh5SUj9OSA4G5n99FpvUjfR9Lp2Qf-Q0Ghw8s7fHUlAo3TW4hGLt_pdH_ntTRdRdY_wH7cMVNOZ7HJu5KNTWcIUCvUVUQ5BYSVrh_kQ)
 
 *Mengambil revisi dengan git fetch*
 
 Setelah itu, isilah file README.md dengan apapun yang Anda inginkan. Setelah selesai, simpan perubahan dengan melakukan commit langsung dari Github.
 
-[*Membuat file readme*](https://lh3.googleusercontent.com/_jX4E88RlAJe7icLm1oooBoH_RxzjxlKyCPPdi5DcmVFsEZ91wXWnAErfVblUNcWFhvM69yiO2gAdFTPxcA0W0MyFK3l0ZxoP_Gw50S6yCvSjtjCZPC52xfs-zmHHMKOH4YnBjXVuoAmnV-Vyg)
+![*Membuat file readme*](https://lh3.googleusercontent.com/_jX4E88RlAJe7icLm1oooBoH_RxzjxlKyCPPdi5DcmVFsEZ91wXWnAErfVblUNcWFhvM69yiO2gAdFTPxcA0W0MyFK3l0ZxoP_Gw50S6yCvSjtjCZPC52xfs-zmHHMKOH4YnBjXVuoAmnV-Vyg)
 
 *Membuat file readme*
 
 Pesan commit bersifat opsional, boleh di isi boleh tidak. Karena Github akan membuatkannya secara otomatis. Sekarang ada perubahan baru di repository remote dan kita akan mengambil perubahan tersebut. Mari kita lakukan dengan perintah *git fetch*.
 
-[*Melakukan git fetch*](https://lh5.googleusercontent.com/5nbeU6yfRKflD7ZJK-oW_TjvnlhrEyjrVM7eSHSjvAbjNYhISxCwp5EqLc22YV6PuRUYkdCn_WxwvZGtOJKC6KFJe6z831bnGOpQZVv7ZW-FCSbFTJmAKHxTOKnLvskVqICG00c6tX-j95h99Q)
+![*Melakukan git fetch*](https://lh5.googleusercontent.com/5nbeU6yfRKflD7ZJK-oW_TjvnlhrEyjrVM7eSHSjvAbjNYhISxCwp5EqLc22YV6PuRUYkdCn_WxwvZGtOJKC6KFJe6z831bnGOpQZVv7ZW-FCSbFTJmAKHxTOKnLvskVqICG00c6tX-j95h99Q)
 
 *Melakukan git fetch*
 
 Revisi sudah diambil, tapi belum ada file README.md di dalam repository lokal. Kenapa bisa begitu? Ya, balik lagi dari pengertian *git fetch*. Dia hanya bertugas mengambil revisi saja dan tidak langsung menggabungkannya dengan repository lokal. Coba kita cek dengan git log.
 
-[*Pengecekan dengan git log*](https://lh5.googleusercontent.com/ks-yD1WakCo7O37zR1CKdVKnclj-wKjbgXsnNavZLOd1pMMmSiPOG6hBM2YUM2mIhu32XV6tR8HCVc2koxAyST7A1vFARSXiLBG96QM5rXRRraJp9gR4qX0i2470NwyXIVmUJa4155UKd_eVHw)
+![*Pengecekan dengan git log*](https://lh5.googleusercontent.com/ks-yD1WakCo7O37zR1CKdVKnclj-wKjbgXsnNavZLOd1pMMmSiPOG6hBM2YUM2mIhu32XV6tR8HCVc2koxAyST7A1vFARSXiLBG96QM5rXRRraJp9gR4qX0i2470NwyXIVmUJa4155UKd_eVHw)
 
 *Pengecekan dengan git log*
 
@@ -275,7 +275,7 @@ git merge master github/master
 
 Setelah itu coba ketik ls dan git log lagi, maka kita sudah berhasil menggabungkan revisi dari remote dan lokal.
 
-[*Melihat hasil gabungan revisi remote dan lokal*](https://lh3.googleusercontent.com/2ZJWpWwNcG-i8BRktVXt_MI3HVoX0kTTGvrG2J9AirgOL-hu__lGXCpEdt7UxYHDFgLxqr-idgaZefBIJjBtDgq52GvCQpWtEjNYZvTKubeTLiEQUaBc9e-ze2ZdMsHzjzvVHB1YX2FLbeGgMA)
+![*Melihat hasil gabungan revisi remote dan lokal*](https://lh3.googleusercontent.com/2ZJWpWwNcG-i8BRktVXt_MI3HVoX0kTTGvrG2J9AirgOL-hu__lGXCpEdt7UxYHDFgLxqr-idgaZefBIJjBtDgq52GvCQpWtEjNYZvTKubeTLiEQUaBc9e-ze2ZdMsHzjzvVHB1YX2FLbeGgMA)
 
 *Melihat hasil gabungan revisi remote dan lokal*
 
@@ -283,7 +283,7 @@ Setelah itu coba ketik ls dan git log lagi, maka kita sudah berhasil menggabungk
 
 Lakukan hal yang sama seperti tadi. Kali ini kita akan membuat file baru bernama register.html melalui Github.
 
-[*Membuat file baru*](https://lh6.googleusercontent.com/ULnBzwYEkBP_O7gqZS8iIr6Dde28JKkT48pm0zSFdGfncsheFqQ3my2jGtUh7iEtMgr81hVyrkwhqZzxRXU0Ae8R228Eox8VKJlkL7-k25jKZQSkH54RhM3zgJYsUhccs3hj9QZMONa8mgaRfA)
+![*Membuat file baru*](https://lh6.googleusercontent.com/ULnBzwYEkBP_O7gqZS8iIr6Dde28JKkT48pm0zSFdGfncsheFqQ3my2jGtUh7iEtMgr81hVyrkwhqZzxRXU0Ae8R228Eox8VKJlkL7-k25jKZQSkH54RhM3zgJYsUhccs3hj9QZMONa8mgaRfA)
 
 *Membuat file baru*
 
@@ -295,7 +295,7 @@ Mengisi file html
 
 Simpan revisi dan tambahkan commit seperti ini.
 
-[*Melakukan commit file baru*](https://lh3.googleusercontent.com/aMO-0hg8Rgb8lOlTjyudk8oRt1to7eLB3pvf9vI1Emtpo-6RgdZ110lMr7ePEXGKsWbBfUrKSNPd0A_tzHH9ZHs2vWixFaBEhbqGml4w2OFVFguKNuTaBgt4cfNYfBsND9RBpFbGZH4io-q5Pg)
+![*Melakukan commit file baru*](https://lh3.googleusercontent.com/aMO-0hg8Rgb8lOlTjyudk8oRt1to7eLB3pvf9vI1Emtpo-6RgdZ110lMr7ePEXGKsWbBfUrKSNPd0A_tzHH9ZHs2vWixFaBEhbqGml4w2OFVFguKNuTaBgt4cfNYfBsND9RBpFbGZH4io-q5Pg)
 
 *Melakukan commit file baru*
 
@@ -307,7 +307,7 @@ git pull github master
 
 Maka semua revisi akan diambil dan langsung digabungkan (merge).
 
-[*Pengecekan hasil git pull*](https://lh3.googleusercontent.com/Z5J1OaHPuVRayUUlcwj0_fWtVYq2AFiKaY8Lm1Ryc5bm8dHHYYHRQloE0usIMv46327EbO0TJStxcvil2g4S5xQxERPMZmyUWYE-x8aOloCMMNeChwOs0lkGHrmkgGTTivA2eLwY5iHk4dVeeA)
+![*Pengecekan hasil git pull*](https://lh3.googleusercontent.com/Z5J1OaHPuVRayUUlcwj0_fWtVYq2AFiKaY8Lm1Ryc5bm8dHHYYHRQloE0usIMv46327EbO0TJStxcvil2g4S5xQxERPMZmyUWYE-x8aOloCMMNeChwOs0lkGHrmkgGTTivA2eLwY5iHk4dVeeA)
 
 *Pengecekan hasil git pull*
 

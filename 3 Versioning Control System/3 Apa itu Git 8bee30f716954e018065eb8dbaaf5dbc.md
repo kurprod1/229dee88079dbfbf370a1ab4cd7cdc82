@@ -10,25 +10,25 @@ Kita ambil contoh seorang developer membuat aplikasi website. Nah pada saat deve
 
 Git merupakan salah satu *Version Control System (VCS)* atau sistem pengontrol versi pada proyek perangkat lunak yang bertugas mencatat setiap perubahan yang terjadi pada tim, maupun perseorangan.
 
-[*Ilustrasi Distributed Revision Control*](https://lh5.googleusercontent.com/N2H4QWgqgy_Q2k2PlS44AnT0ZrLpjk8AEiB_7J-F_tMNyUJaB8o0uUuLihY1L6QnHcVifPiph7X3vqSsOwWPKVNa4t93LP4r4p6gbRwaubdqtAYVx6Gvesmlm1n5IsD7VrtC9ml2MiAEyZCMQA)
+![*Ilustrasi Distributed Revision Control*](https://lh5.googleusercontent.com/N2H4QWgqgy_Q2k2PlS44AnT0ZrLpjk8AEiB_7J-F_tMNyUJaB8o0uUuLihY1L6QnHcVifPiph7X3vqSsOwWPKVNa4t93LP4r4p6gbRwaubdqtAYVx6Gvesmlm1n5IsD7VrtC9ml2MiAEyZCMQA)
 
 *Ilustrasi Distributed Revision Control*
 
 Pada dasarnya GIT itu **menyimpan** perubahan yang terjadi pada project agar dapat mentrack apa saja yang diubah. Dan agar rekan se-tim atau developer lain dapat melihat perubahan yang terjadi. Misalnya ada dev A yang mengerjakan fitur A dan dev B yang mengerjakan fitur B. Diantara keduanya pasti akan ada bentrok karena dari masing masing developer ada fitur baru. Maka dari itu ada yang dinamakan merge yaitu proses menggabungkan beberapa perubahan dari tiap developer yang melakukan changes.
 
-[*Ilustrasi Merge*](https://lh3.googleusercontent.com/nwtTqVTxlY7pDG0XXBVON-uK8XJ7TJ-ziFCMQk7NN-dfZfRU_lYXPKCVzwkhlWklADZCc8gBxWNEuB6zUKtpkRKsWg_Fnke0NFkfuReuHeqxP8VirJEY07p-626-oeVZYZSKBgiqwS9irm-zmg)
+![*Ilustrasi Merge*](https://lh3.googleusercontent.com/nwtTqVTxlY7pDG0XXBVON-uK8XJ7TJ-ziFCMQk7NN-dfZfRU_lYXPKCVzwkhlWklADZCc8gBxWNEuB6zUKtpkRKsWg_Fnke0NFkfuReuHeqxP8VirJEY07p-626-oeVZYZSKBgiqwS9irm-zmg)
 
 *Ilustrasi Merge*
 
 Mungkin ilustrasi dibawah dapat menggambarkan mahasiswa semester akhir yang sedang menggeluti skripsi. Pasti temen temen juga pernah ngalamin hal ini. Ya  buat file baru saat ada perubahan. Tentunya hal ini tidak efektif dan bakal bikin bingung sendiri.
 
-[*Ilustrasi Sebelum Menggunakan Git*](https://lh3.googleusercontent.com/nPBy-lRqa69l4MEkFj-KMpQpngddOabxWQK_KpAekTXeJ9HkZanjN8u0hCNgMCYy28Sx21PzIMnjJV7Pdcy7-iUzfq7G66tjVYO7C-_gmYhJS38Ji-LT8SMICXicceNIkvPEB-4HBvFYrCkaJw)
+![*Ilustrasi Sebelum Menggunakan Git*](https://lh3.googleusercontent.com/nPBy-lRqa69l4MEkFj-KMpQpngddOabxWQK_KpAekTXeJ9HkZanjN8u0hCNgMCYy28Sx21PzIMnjJV7Pdcy7-iUzfq7G66tjVYO7C-_gmYhJS38Ji-LT8SMICXicceNIkvPEB-4HBvFYrCkaJw)
 
 *Ilustrasi Sebelum Menggunakan Git*
 
 Setelah mengetahui ada GIT, temen temen mungkin akan lebih ter track perubahan yang terjadi pada dokumen seperti ilustrasi dibawah.
 
-[*Ilsutrasi setelah menggunakan Git*](https://lh6.googleusercontent.com/FVAW6lE919tfdGpASbderSsH83PhmVe3R5WBXkzTrTvTGJN_NCI98j7o5_y3cVlWm72fHV-6NVr8eOH1bJ9lMHHU8M6Xpbkb3pcmtlTlY4x3MyECnUrVbpX8Lz2uVf2U6uuYaOi-FUnD7o-aJg)
+![*Ilsutrasi setelah menggunakan Git*](https://lh6.googleusercontent.com/FVAW6lE919tfdGpASbderSsH83PhmVe3R5WBXkzTrTvTGJN_NCI98j7o5_y3cVlWm72fHV-6NVr8eOH1bJ9lMHHU8M6Xpbkb3pcmtlTlY4x3MyECnUrVbpX8Lz2uVf2U6uuYaOi-FUnD7o-aJg)
 
 *Ilsutrasi setelah menggunakan Git*
 

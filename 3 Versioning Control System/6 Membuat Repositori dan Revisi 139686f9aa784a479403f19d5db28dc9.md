@@ -49,13 +49,13 @@ Pada contoh file .gitignore di atas, kita memasukan direktori vendor, upload, ca
 
 Sebelumnya kita sudah membuat repositori kosong. Sekarang kita coba tambahkan sebuah file baru. Sebagai contoh, kita akan menambahkan tiga file HTML kosong.
 
-[*Pembuatan file html*](https://lh4.googleusercontent.com/KRvsrx15O_xC4HnFdMmhyOjWovwpfO9FoAUAMW7m5RrLoEbvzp4s57GVSutpram6xCm1fi4r0PaVNppnm40u4iwPyw0bW4WogvE7MRKZBbasBHQPuUcLIO5XUovf85nc0yi8Ji7WmZLrSxdWxw)
+![*Pembuatan file html*](https://lh4.googleusercontent.com/KRvsrx15O_xC4HnFdMmhyOjWovwpfO9FoAUAMW7m5RrLoEbvzp4s57GVSutpram6xCm1fi4r0PaVNppnm40u4iwPyw0bW4WogvE7MRKZBbasBHQPuUcLIO5XUovf85nc0yi8Ji7WmZLrSxdWxw)
 
 *Pembuatan file html*
 
 Setelah ditambahkan, coba ketikan perintah git status untuk melihat status repositorinya.
 
-[*Melihat status Git*](https://lh6.googleusercontent.com/gsoEa-cMNx3GbVEr1KMcqjqzYcHfo77i0MFp6rz0swVdD7il8Y9M6RCx4KYrYU7L1TNyk6aPDNn0cj7ksDwrrARIYrliONhpYA7UTeIFI3qT8n2fqLiXmoamPxZB9zIv8_ppPOvIF749wTuAig)
+![*Melihat status Git*](https://lh6.googleusercontent.com/gsoEa-cMNx3GbVEr1KMcqjqzYcHfo77i0MFp6rz0swVdD7il8Y9M6RCx4KYrYU7L1TNyk6aPDNn0cj7ksDwrrARIYrliONhpYA7UTeIFI3qT8n2fqLiXmoamPxZB9zIv8_ppPOvIF749wTuAig)
 
 *Melihat status Git*
 
@@ -108,7 +108,7 @@ git add .
 
 Setelah itu cobalah ketik perintah *git status* lagi. Kondisi filenya sekarang akan menjadi *staged*.
 
-[*Melihat status Staged*](https://lh5.googleusercontent.com/-ESZSTQppdcLC4ZPEshUZ7dcmwOpbwT4jB2Dz-TGYbvJJzm9cfZC-nOVPnbwQePJgBr62PbPIErrplZQ1vLQYKWeXvq1CRpVVyXJdmGEGv7xJp0csTqjgVBojGIuO-yXL5HoG2Fxj5VxAURr7g)
+![*Melihat status Staged*](https://lh5.googleusercontent.com/-ESZSTQppdcLC4ZPEshUZ7dcmwOpbwT4jB2Dz-TGYbvJJzm9cfZC-nOVPnbwQePJgBr62PbPIErrplZQ1vLQYKWeXvq1CRpVVyXJdmGEGv7xJp0csTqjgVBojGIuO-yXL5HoG2Fxj5VxAURr7g)
 
 *Melihat status Staged*
 
@@ -118,7 +118,7 @@ Setelah itu, ubah kondisi file tersebut ke commited agar semua perubahan disimpa
 git commit -m ‘Commit Pertama’
 ```
 
-[*Melihat status Commit*](https://lh5.googleusercontent.com/puKkbTTfAohnrNIBr-nv3ZBapiau9rVK-0mtUnCh-Q390XM5mZ46sAez7GaV99bOOdjTCRVQjdX88hUHaM-zPsuCxDWEsG8J70bLinIp3j37Ki-JuIscrV5buc1mtZ5IgJspnmKEz0J2Ly6dxQ)
+![*Melihat status Commit*](https://lh5.googleusercontent.com/puKkbTTfAohnrNIBr-nv3ZBapiau9rVK-0mtUnCh-Q390XM5mZ46sAez7GaV99bOOdjTCRVQjdX88hUHaM-zPsuCxDWEsG8J70bLinIp3j37Ki-JuIscrV5buc1mtZ5IgJspnmKEz0J2Ly6dxQ)
 
 *Melihat status Commit*
 
@@ -139,19 +139,19 @@ Sekarang kita akan mencoba untuk membuat Revisi kedua. Misalkan skenarionya adal
 
 Setelah itu ketik lagi perintah *git status*.
 
-[*Melihat git status*](https://lh3.googleusercontent.com/pBsPJX8KvVCEh-9S-lsaGyOMse-T5h2djIfh5v3uyjJucjCBeQtxFPl7qDq09Wi-1fzc9y4hH2hpZ8_23xBjkjMX8qi6DNUG3YI1aIK_Cw3ytyk4sbo5TJRJTQySCyGTBW6TfteTPYimxYzeEA)
+![*Melihat git status*](https://lh3.googleusercontent.com/pBsPJX8KvVCEh-9S-lsaGyOMse-T5h2djIfh5v3uyjJucjCBeQtxFPl7qDq09Wi-1fzc9y4hH2hpZ8_23xBjkjMX8qi6DNUG3YI1aIK_Cw3ytyk4sbo5TJRJTQySCyGTBW6TfteTPYimxYzeEA)
 
 *Melihat git status*
 
 Terlihat di sana, file index.html sudah dimodifikasi. Kondisinya sekarang berada dalam modified. Lakukan commit lagi seperti revisi pertama.
 
-[*Melihat status commit*](https://lh6.googleusercontent.com/hIexhrfJdl1yTdUyk8OKxN4L7FSULZwXFJhrPAUaaoXMdLZF8Ab386M9iSl4fPh1XA_D7NiDVe6dN2-ZIrn-MV40t0-TSnQVlO8DtiGhR9cGv-mnF0zJvpu0qUGtUTMyiEAt4bmxg1rfEjnOug)
+![*Melihat status commit*](https://lh6.googleusercontent.com/hIexhrfJdl1yTdUyk8OKxN4L7FSULZwXFJhrPAUaaoXMdLZF8Ab386M9iSl4fPh1XA_D7NiDVe6dN2-ZIrn-MV40t0-TSnQVlO8DtiGhR9cGv-mnF0zJvpu0qUGtUTMyiEAt4bmxg1rfEjnOug)
 
 *Melihat status commit*
 
 Dengan demikian, revisi kedua sudah disipan oleh Git. Mungkin anda belum tahu maksud dari argumen -m, argumen tersebut untuk menambahkan pesan setiap menyimpan revisi.
 
-[*Ilustrasi revisi*](https://lh6.googleusercontent.com/FK9rY1hrq7DFmF2XwswUvt9AUB6Fm7Kw-k6XyRW2XtJkxPgyaYiCN8N5fEv5Kl2lxU930Aej_py1dFxUWcSudS-mD0mbGqpG471haurFw2igHKv4oanVIXWTr7Aq9gzQ8QTn7Yxr613GDDSnpw)
+![*Ilustrasi revisi*](https://lh6.googleusercontent.com/FK9rY1hrq7DFmF2XwswUvt9AUB6Fm7Kw-k6XyRW2XtJkxPgyaYiCN8N5fEv5Kl2lxU930Aej_py1dFxUWcSudS-mD0mbGqpG471haurFw2igHKv4oanVIXWTr7Aq9gzQ8QTn7Yxr613GDDSnpw)
 
 *Ilustrasi revisi*
 
@@ -165,7 +165,7 @@ Pada skenario sebelumnya, kita sudah membuat dua revisi pada repositori project-
 git log
 ```
 
-[*Melihat log revisi*](https://lh3.googleusercontent.com/BbHpJn8gQLARxy6aqptj7vDWFRorUSpD0XnrNbKQpPCYGAgY3EA0QehNVjyYl_DsOWEEFuZnskE-Hykg-y1gPnjCI6oT8GNo4tUM9vJ36cDL4AJRRO9ITvEOh6pMZuRqFJwn6SJoPFr1Q8CMMg)
+![*Melihat log revisi*](https://lh3.googleusercontent.com/BbHpJn8gQLARxy6aqptj7vDWFRorUSpD0XnrNbKQpPCYGAgY3EA0QehNVjyYl_DsOWEEFuZnskE-Hykg-y1gPnjCI6oT8GNo4tUM9vJ36cDL4AJRRO9ITvEOh6pMZuRqFJwn6SJoPFr1Q8CMMg)
 
 *Melihat log revisi*
 
@@ -175,7 +175,7 @@ Pada gambar di atas, terdapat dua revisi perubahan yang telah dilakukan. Untuk m
 git log --oneline
 ```
 
-[*Melihat log lebih pendek*](https://lh3.googleusercontent.com/aI46GMslr_HJF6VW_kcTMcZzyavsDUy-jeH2E7QjnNFnKHVzbKdlGN-Hor6oLpv0Jp3iiJ3BumXM8Ti5P84eN7Af21ENdHc4TqeGgNCyOXbBc6rxqrZi7Xmi6mqSP3xDUaaePzGkF8bE00Bcsg)
+![*Melihat log lebih pendek*](https://lh3.googleusercontent.com/aI46GMslr_HJF6VW_kcTMcZzyavsDUy-jeH2E7QjnNFnKHVzbKdlGN-Hor6oLpv0Jp3iiJ3BumXM8Ti5P84eN7Af21ENdHc4TqeGgNCyOXbBc6rxqrZi7Xmi6mqSP3xDUaaePzGkF8bE00Bcsg)
 
 *Melihat log lebih pendek*
 
@@ -187,7 +187,7 @@ Untuk melihat log pada revisi tertentu, kita bisa memasukan nomer revisi/commit.
 git log 331f6058c6ed132af24d5ca1f17a306d5683f9f1
 ```
 
-[*Melihat revisi nomor commit*](https://lh4.googleusercontent.com/6Z1GDRN3qmv5CsOukW9o7i1zEu_OHORn8NiKtWQEsjy45NmCnRi7guqnl6hy7_GUgVhY5HvMBOmxLUF_jiKEGaCUec3GzW7AhHmEQsV5Btd0eYtmvo_N_xAChdU1j0zcYFWN9cC7EJ0MlVle7w)
+![*Melihat revisi nomor commit*](https://lh4.googleusercontent.com/6Z1GDRN3qmv5CsOukW9o7i1zEu_OHORn8NiKtWQEsjy45NmCnRi7guqnl6hy7_GUgVhY5HvMBOmxLUF_jiKEGaCUec3GzW7AhHmEQsV5Btd0eYtmvo_N_xAChdU1j0zcYFWN9cC7EJ0MlVle7w)
 
 *Melihat revisi nomor commit*
 
@@ -199,11 +199,11 @@ Untuk melihat revisi pada file tertentu, kita dapat memasukan nama filenya.
 git log index.html
 ```
 
-[*Melihat log pada file tertentu*](https://lh5.googleusercontent.com/YHsHOajwcaftQkI0220SPmJi55QKVZXIcaz0KnjjcUyj0_G3gjRlp3FfIw5Gv26lA-t9BFvGP_h2vNzFk3VCWlSHdkX5cYVmMZhKiom_SyiLrnrp8h5V_CXgp7OuT3B9LpjvQ0Sm0dbuYXBP3Q)
+![*Melihat log pada file tertentu*](https://lh5.googleusercontent.com/YHsHOajwcaftQkI0220SPmJi55QKVZXIcaz0KnjjcUyj0_G3gjRlp3FfIw5Gv26lA-t9BFvGP_h2vNzFk3VCWlSHdkX5cYVmMZhKiom_SyiLrnrp8h5V_CXgp7OuT3B9LpjvQ0Sm0dbuYXBP3Q)
 
 *Melihat log pada file tertentu*
 
-[*Melihat log author tertentu*](https://lh6.googleusercontent.com/flW3bX-XxF4FceqaRfZoZNbsqcMKWdkubR6EkeAHQkhEFTO39fP3xC1TP1mg0idz5ZCqlo3hHoPZejGlvBK_thODoyyJalheTy3A9yAFddXYAZuACxZC4uV-uJ8460-E4kdzA4rfWr-Mmtzgfw)
+![*Melihat log author tertentu*](https://lh6.googleusercontent.com/flW3bX-XxF4FceqaRfZoZNbsqcMKWdkubR6EkeAHQkhEFTO39fP3xC1TP1mg0idz5ZCqlo3hHoPZejGlvBK_thODoyyJalheTy3A9yAFddXYAZuACxZC4uV-uJ8460-E4kdzA4rfWr-Mmtzgfw)
 
 *Melihat log author tertentu*
 
@@ -215,7 +215,7 @@ Gunakan perintah berikut ini untuk melihat perubahan apa saja yang dilakukan pad
 git diff commit_number
 ```
 
-[*Melihat perbedaan*](https://lh4.googleusercontent.com/zWK3E2JkyakcdBwEAIEzEnUf3fHpfGiPG2xjeO4Z2Ayh_e3R-RY1AmqZt6pQSB2G1rUqmjYi69_f41z1qAJY3zctijXEzXJzG29-j3hRlFH214MJB95JCjKqCtADauUrinHBTiCtr52NJZ1n5Q)
+![*Melihat perbedaan*](https://lh4.googleusercontent.com/zWK3E2JkyakcdBwEAIEzEnUf3fHpfGiPG2xjeO4Z2Ayh_e3R-RY1AmqZt6pQSB2G1rUqmjYi69_f41z1qAJY3zctijXEzXJzG29-j3hRlFH214MJB95JCjKqCtADauUrinHBTiCtr52NJZ1n5Q)
 
 *Melihat perbedaan*
 
@@ -253,7 +253,7 @@ Berikut adalah kode setelah diubah :
 
 Setelah itu lakukan jalankan perintah git diff lagi.
 
-[*Melihat hasil akhir perbedaan*](https://lh4.googleusercontent.com/wNrYkj9o2toFi44RVe4QgQ6DvyQwndGQjoiKFgJS2jF6Ri_IUDhnnnrNd_yvPqnY-kciOZHkO4iJVBDb1ulBJWkg6Cu6DVoN2mckQP_DXz2m5GXZvs5hcySeeCO9k7RDigtoU_5z5QTzRBlRQA)
+![*Melihat hasil akhir perbedaan*](https://lh4.googleusercontent.com/wNrYkj9o2toFi44RVe4QgQ6DvyQwndGQjoiKFgJS2jF6Ri_IUDhnnnrNd_yvPqnY-kciOZHkO4iJVBDb1ulBJWkg6Cu6DVoN2mckQP_DXz2m5GXZvs5hcySeeCO9k7RDigtoU_5z5QTzRBlRQA)
 
 *Melihat hasil akhir perbedaan*
 

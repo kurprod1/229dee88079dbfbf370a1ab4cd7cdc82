@@ -37,3 +37,13 @@
   * [16 Shell Scripting](2 Linux Operation System/16 Shell Scripting b368df8094b744c09b7eec62badd232f.md)
   * [17 Membuat Automasi Setup Webserver dengan Bash](2 Linux Operation System/17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.md)
   * [18 Summary](2 Linux Operation System/18 Summary b819ffcae89f4fcb968862187ebb22cf.md)
+
+* [3 Versioning Control System](3 Versioning Control System/README.md)
+  * [1 Introduction](3 Versioning Control System/1 Introduction fe53802fcc694addbc50628ee469aac9.md)
+  * [2 Project For This Section](3 Versioning Control System/2 Project For This Section 367ec971ae5d431891ca0f8db8832b8d.md)
+  * [3 Apa itu Git?](3 Versioning Control System/3 Apa itu Git 8bee30f716954e018065eb8dbaaf5dbc.md)
+  * [4 Instalasi dan Konfigurasi Git](3 Versioning Control System/4 Instalasi dan Konfigurasi Git 563c02b78eb6433498579cb580bc294b.md)
+  * [5 Perisiapan File Untuk Git](3 Versioning Control System/5 Perisiapan File Untuk Git a83f1a05d4e04ae99329d948e16f9b02.md)
+  * [6 Membuat Repositori dan Revisi](3 Versioning Control System/6 Membuat Repositori dan Revisi 139686f9aa784a479403f19d5db28dc9.md)
+  * [7 Branching](3 Versioning Control System/7 Branching a7402f89309945caa842a8abf46810ce.md)
+  * [8 Remote Repository](3 Versioning Control System/8 Remote Repository f7d30e43179b4097be6e41f43a715f5d.md)
