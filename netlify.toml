@@ -1,4 +1,4 @@
 [build]
     base = "_book/"
     publish = "_book/"
-    command = "npx -v"
+    command = "npm install honkit --save-dev && npx honkit build"
