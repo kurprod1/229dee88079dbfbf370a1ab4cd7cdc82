@@ -6,7 +6,7 @@ Created: June 29, 2022 7:30 PM
 
 API (*Application Programmable Interface*) adalah sebuah interface yang berupa kumpulan fungsi yang dapat di-'panggil' atau dijalankan oleh program lain. Kegunaan dari API adalah sebagai "jembatan" yang menghubungkan 2 program yang berbeda sehingga dapat memudahkan kegiatan yang akan dilakukan. Sebagai contoh, ketika kita ingin menggunakan fitur kamera di smartphone kita tidak perlu mengetikan kode untuk mengakses interface kamera, kita hanya perlu menggunakan API untuk mengaksesnya saja.
 
-[*Ilustrasi Penggunaan API*](https://lh6.googleusercontent.com/fyNcaBKsnkzMcya8Kkb7Elr3haDn7o_lZjlAb2PP-wMRuViP-M7VgkJ2LY1U53HDM5KPkMRuYTpZxjqafvVeIUU5OFZftHJ8fY27q9wv3lT1OFQIj4rqv-pktgxuIl5tsfRBkw2C-fdzWkKb6w)
+![*Ilustrasi Penggunaan API*](https://lh6.googleusercontent.com/fyNcaBKsnkzMcya8Kkb7Elr3haDn7o_lZjlAb2PP-wMRuViP-M7VgkJ2LY1U53HDM5KPkMRuYTpZxjqafvVeIUU5OFZftHJ8fY27q9wv3lT1OFQIj4rqv-pktgxuIl5tsfRBkw2C-fdzWkKb6w)
 
 *Ilustrasi Penggunaan API*
 
@@ -21,13 +21,13 @@ Rest (*REpresentational State Transfer*) API adalah sebuah gaya perancangan (*ar
 
 Aplikasi e-banking tidak mungkin memiliki akses langsung ke database milik bank, akan tetapi aplikasi tersebut dapat mengakses API yang dimiliki bank sehingga mereka dapat mendapatkan data-data dari berbagai bank tersebut.
 
-[*Ilustrasi Alur Rest API*](https://lh3.googleusercontent.com/fGH_JDKJeuL8aK4nonKCWSnrCA03UL0OfVXDBonXJ6ttYvePGjU004GoSOLvYfe7qdCpobZLyDfbuS2sdHeIlBXVIGx-DlptLaMsEd83L3fmZmEDHHMEy56zwcgVKdwWu3SHw29sPSZchs_y_A)
+![*Ilustrasi Alur Rest API*](https://lh3.googleusercontent.com/fGH_JDKJeuL8aK4nonKCWSnrCA03UL0OfVXDBonXJ6ttYvePGjU004GoSOLvYfe7qdCpobZLyDfbuS2sdHeIlBXVIGx-DlptLaMsEd83L3fmZmEDHHMEy56zwcgVKdwWu3SHw29sPSZchs_y_A)
 
 *Ilustrasi Alur Rest API*
 
 Kita dapat analogikan Rest API ini menjadi sebuah restoran. Disebuah restoran ada seorang pelanggan yang datang kemudian memesan makanan dari menu yang diberikan oleh pelayan, setelah selesai memilih pesanan maka pelayan akan menuliskan pesanan dari pelanggan kemudian memberikan pesanan tersebut pada koki di dapur. Setelah pesanan selesai maka pelayan akan mengantarkan makanan dari dapur menuju pelanggan.
 
-[*Analogi Restoran Rest API*](https://lh6.googleusercontent.com/zX2gqMK0O18tb4ZorXQNjv7QOE185xi7l2mamfsb5sxkDy5w4BRhp1XSmHv0Ft4jF6l9PQRCZDN1ZCituBCAP7bCykreb8RXlbxC-CKmBwFdRC5K4bpZ7U-YkuIoWpBH-Phe2OnVcedUG3xIgg)
+![*Analogi Restoran Rest API*](https://lh6.googleusercontent.com/zX2gqMK0O18tb4ZorXQNjv7QOE185xi7l2mamfsb5sxkDy5w4BRhp1XSmHv0Ft4jF6l9PQRCZDN1ZCituBCAP7bCykreb8RXlbxC-CKmBwFdRC5K4bpZ7U-YkuIoWpBH-Phe2OnVcedUG3xIgg)
 
 *Analogi Restoran Rest API*
 
@@ -37,7 +37,7 @@ Kita dapat analogikan Rest API ini menjadi sebuah restoran. Disebuah restoran ad
 
 Hal pertama yang dibutuhkan pertama kali pada saat menggunakan REST API adalah REST Server, dimana bagian ini merupakan bagian yang akan menyediakan resource/data. Nantinya sebuah REST Client akan membuat HTTP Request ke server dan server akan merespon dengan mengirimkan sebuah HTTP Response sesuai request dari client.
 
-[*Ilustrasi antara REST Client dan REST Server*](https://lh5.googleusercontent.com/VcII0Qk0CObUCetd5l2eRBUYBkT-uxDFklInwXIaSxTvHG2Ivc_t5AF4OdQb025CG-O75Mu24MoSIn6Ag1PL1eNUGvaPywDuxjcng7jyLBcwc0ZN2ry5AYiKBVc8fVyxNj9AAQ8aouUnNaJBTQ)
+![*Ilustrasi antara REST Client dan REST Server*](https://lh5.googleusercontent.com/VcII0Qk0CObUCetd5l2eRBUYBkT-uxDFklInwXIaSxTvHG2Ivc_t5AF4OdQb025CG-O75Mu24MoSIn6Ag1PL1eNUGvaPywDuxjcng7jyLBcwc0ZN2ry5AYiKBVc8fVyxNj9AAQ8aouUnNaJBTQ)
 
 *Ilustrasi antara REST Client dan REST Server*
 
@@ -49,7 +49,7 @@ HTTP Request memiliki beberapa komponen yang diataranya adalah sebagai berikut :
 - **Request Header** : yang isinya berupa seperti Authorization, tipe client dan lain lain
 - **Request Body** : data yang diberikan ke server misalnya URI params
 
-[*Ilustrasi HTTP Methode dari REST Client*](https://lh5.googleusercontent.com/lWOeycVHebIhQ65IIaiCacut7V5mTX-hvQX5iYkGXF-rFZeB8Q6I7ElYJeOlPvjyoA1rPnA3KzCQ_MSGZ47WQo4U70zKljrKwhvvjZmwVIE7FR6z97M2aCrLQyTzBbRrkxoHiJfa6-NW7nIU9g)
+![*Ilustrasi HTTP Methode dari REST Client*](https://lh5.googleusercontent.com/lWOeycVHebIhQ65IIaiCacut7V5mTX-hvQX5iYkGXF-rFZeB8Q6I7ElYJeOlPvjyoA1rPnA3KzCQ_MSGZ47WQo4U70zKljrKwhvvjZmwVIE7FR6z97M2aCrLQyTzBbRrkxoHiJfa6-NW7nIU9g)
 
 *Ilustrasi HTTP Methode dari REST Client*
 
