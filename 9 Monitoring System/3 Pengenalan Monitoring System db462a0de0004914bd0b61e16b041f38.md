@@ -6,7 +6,7 @@ Created: July 25, 2022 1:49 PM
 
 Pada sistem yang lebih kompleks, proses monitoring ini dapat dikembangkan sampai kepada penggunaan sumber daya, seperti sistem up/down, utilisasi CPU dan memory, serta manajemen *port*.
 
-[Ilustrasi Monitoring System](https://lh6.googleusercontent.com/wzBGcRTIP-YALY7G8nj25sQcl9ByZMSJXC_-5F7hstsqNJ3wpYz3Bp46JAwsLSLC0CFu1EBN169EnjnCSw_gabA4C6aGRWHEqNft7-DOHjpcZVy3ev_rKjoP2gqsa60Lr1JYJEGemR-PBBPlD66vXA)
+![Ilustrasi Monitoring System](https://lh6.googleusercontent.com/wzBGcRTIP-YALY7G8nj25sQcl9ByZMSJXC_-5F7hstsqNJ3wpYz3Bp46JAwsLSLC0CFu1EBN169EnjnCSw_gabA4C6aGRWHEqNft7-DOHjpcZVy3ev_rKjoP2gqsa60Lr1JYJEGemR-PBBPlD66vXA)
 
 Ilustrasi Monitoring System
 

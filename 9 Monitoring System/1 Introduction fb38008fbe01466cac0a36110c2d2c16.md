@@ -8,7 +8,10 @@ Saat ini kita akan memasuki materi pengenalan monitoring. Mulai dari apa itu mon
 
 Kami menyarankan untuk mempelajari topik ini secara mendalam dengan menggunakan timeline sebagai berikut:
 
-[Untitled](1%20Introduction%20fb38008fbe01466cac0a36110c2d2c16/Untitled%20Database%2062cbb5b9512340aabccc9c9c959735a3.csv)
+|No |Topic                             |Durasi        |
+|---|----------------------------------|--------------|
+|1  |Elasticsearch Stack               |1 Pekan       |
+|2  |Prometheus Grafana                |1 Pekan       |
 
 Akan tetapi kami juga menyadari bahwa tempo belajar setiap orang akan berbeda-beda, maka dari itu, kamu bisa menyesuaikan pace belajarmu, namun dengan catatan jangan melebihi dari guideline waktu yang ditentukan, ya, karena masih banyak hal yang perlu kita pelajari kedepannya.
 

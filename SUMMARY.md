@@ -144,3 +144,12 @@
   * [11 Membuat Jenkins Pipeline](8 CI CD/11 Membuat Jenkins Pipeline a183e4447b634842a9993df8168aa16f.md)
   * [12 Membuat JenkinsFile Sederhana](8 CI CD/12 Membuat JenkinsFile Sederhana cc319996ed4b4a9ba99a3b92a40bf387.md)
   * [13 Github Action](8 CI CD/13 Github Action b1a8da794e554857b611dd2b464b58bc.md)
+
+
+* [9 Monitoring System](9 Monitoring System/README.md)
+  * [1 Introduction](9 Monitoring System/1 Introduction fb38008fbe01466cac0a36110c2d2c16.md)
+  * [2 Project For This Section](9 Monitoring System/2 Project For This Section ddde8cf6aff047d1bbcb6e45c97ef91b.md)
+  * [3 Pengenalan Monitoring System](9 Monitoring System/3 Pengenalan Monitoring System db462a0de0004914bd0b61e16b041f38.md)
+  * [4 Tool Monitoring](9 Monitoring System/4 Tool Monitoring f2ce86685472457da19e0cff1e2854e1.md)
+  * [5 Elasticsearch Kibana On K8S Cluster](9 Monitoring System/5 Elasticsearch Kibana On K8S Cluster 03f03ad2a1254d5ea017fd09c6bff064.md)
+  * [6 Prometheus dan Grafana Stack](9 Monitoring System/6 Prometheus dan Grafana Stack 6a21fa504d034f07a796b461dc5d561f.md)

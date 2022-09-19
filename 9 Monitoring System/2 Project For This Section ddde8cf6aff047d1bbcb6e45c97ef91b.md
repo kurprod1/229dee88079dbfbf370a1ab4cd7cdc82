@@ -8,5 +8,5 @@ Untuk Mengguide teman teman peserta dalam meraih goals yang sudah di set, kami a
 
 # Requirement
 
-1. Buat sebuah monitoring system menggunakan Elasticsearch Kibana ****dan Prometheus Grafana.
+1. Buat sebuah monitoring system menggunakan Elasticsearch Kibana dan Prometheus Grafana.
 2. Object yang dimonitoring adalah cluster Kubernetes

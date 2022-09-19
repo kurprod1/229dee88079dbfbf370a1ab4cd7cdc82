@@ -22,4 +22,4 @@ Ada banyak tool dan stack yang bisa digunakan untuk memonitoring sistem yang kit
     
 5. Prometheus + Grafana
     
-    [https://www.youtube.com/watch?v=9TJx7QTrTyo](https://www.youtube.com/watch?v=9TJx7QTrTyo)
+    [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9TJx7QTrTyo/0.jpg)](https://www.youtube.com/watch?v=9TJx7QTrTyo)
