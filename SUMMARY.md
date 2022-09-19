@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* 
 
 * [0 Introduction](0 Introduction/README.md)
   * [1 Introduction](0 Introduction/1 Introduction 834bfe839d9b444a9060300dd14e84ba.md)
@@ -8,6 +9,7 @@
   * [3 Your Big Project](0 Introduction/3 Your Big Project 864e94193a7746a68a434474db9c5546.md)
   * [4 Newbie in Tech Read This!](0 Introduction/4 Newbie in Tech Read This! 945409aebdf24e24b3f16b4406b47e56.md)
   * [5 Hmmm… DevOps](0 Introduction/5 Hmmm… DevOps 6cd056aad07d46c6bf8fa123f12c0c94.md)
+
 
 * [1 Network Overview](1 Network Overview/README.md)
   * [1 Introduction](1 Network Overview/1 Introduction 42822773f28f4d6ebea3355c9ea31f58.md)
@@ -17,6 +19,7 @@
   * [5 IP Address](1 Network Overview/5 IP Address 6d2ec173c27346169166bde1a85564e6.md)
   * [6 Menggambar dan Membaca Topologi](1 Network Overview/6 Menggambar dan Membaca Topologi 7132e18b1f2149ac85811fe37f4f0ad0.md)
   * [7 Routing](1 Network Overview/7 Routing b2339b862bcc4bd3ad15f07ca54dba21.md)
+
 
 * [2 Linux Operation System](2 Linux Operation System/README.md)
   * [1 Introduction](2 Linux Operation System/1 Introduction 946a966a89534541a7be54e3ffd16d19.md)
@@ -38,6 +41,7 @@
   * [17 Membuat Automasi Setup Webserver dengan Bash](2 Linux Operation System/17 Membuat Automasi Setup Webserver dengan Bash 8aedf9529e59401f8c8cd04a90e82a82.md)
   * [18 Summary](2 Linux Operation System/18 Summary b819ffcae89f4fcb968862187ebb22cf.md)
 
+
 * [3 Versioning Control System](3 Versioning Control System/README.md)
   * [1 Introduction](3 Versioning Control System/1 Introduction fe53802fcc694addbc50628ee469aac9.md)
   * [2 Project For This Section](3 Versioning Control System/2 Project For This Section 367ec971ae5d431891ca0f8db8832b8d.md)
@@ -47,6 +51,7 @@
   * [6 Membuat Repositori dan Revisi](3 Versioning Control System/6 Membuat Repositori dan Revisi 139686f9aa784a479403f19d5db28dc9.md)
   * [7 Branching](3 Versioning Control System/7 Branching a7402f89309945caa842a8abf46810ce.md)
   * [8 Remote Repository](3 Versioning Control System/8 Remote Repository f7d30e43179b4097be6e41f43a715f5d.md)
+
 
 * [4 Cloud Platform Services](4 Cloud Platform Services/README.md)
   * [1 Introduction](4 Cloud Platform Services/1 Introduction f4bff980f7e34f968ee532ce38243f75.md)
@@ -65,6 +70,7 @@
   * [14 Budgeting AWS](4 Cloud Platform Services/14 Budgeting AWS 6968bced84564595bd2fe3cc7ac1a4e6.md)
   * [15 Identity and Access Management (IAM)](4 Cloud Platform Services/15 Identity and Access Management (IAM) 08b4982101344c7abe155eb52d48a322.md)
   * [16 AWS CLI](4 Cloud Platform Services/16 AWS CLI f6cb40868d844d21934e11d741cf2fab.md)
+
 
 * [5 API](5 API/README.md)
   * [1 Introduction](5 API/1 Introduction df544d407a6c40f2924f54f258092210.md)
@@ -100,3 +106,25 @@
     * [19 Exercise](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/19 Exercise a0d1f878770c4c01b363ede3a54b41e9.md)
     * [20 Volume](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/20 Volume d2c5dc7fe85e45819011b696114e88dc.md)
     * [21 Summary](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/21 Summary 5616308fb0fc4d55858e02e9bffd32d0.md)
+
+
+* [7 Kubernetes](7 Kubernetes/README.md)
+  * [1 Introduction](7 Kubernetes/1 Introduction 0a4ae1998f5645f1b5cd9ddc3c67d4ce.md)
+  * [2 Project For This Section](7 Kubernetes/2 Project For This Section e033bdc73e5e4db09d3a5b8b30e6be8b.md)
+  * [3 Kubernetes Introduction](7 Kubernetes/3 Kubernetes Introduction 7fae0ee2c73c48d4a29251b6515787b3.md)
+  * [4 Installasi Minikube](7 Kubernetes/4 Installasi Minikube 921e6dacfedc4f64b76bb945336d8ed2.md>)
+  * [5 Kubernetes Basic Command](7 Kubernetes/5 Kubernetes Basic Command e646be3d4bd142a5a3072e3e69355ade.md)
+  * [6 Kubernetes Menggunakan Amazon EKS](7 Kubernetes/6 Kubernetes Menggunakan Amazon EKS 6e509cd6fd51484ebdf0637994764017.md)
+  * [7 Membuat Kubernetes Cluster dengan KubeADM](7 Kubernetes/7 Membuat Kubernetes Cluster dengan KubeADM fd84053118ff49a5adb1aa7683be336a.md)
+  * [8 Membuat Kubernetes Cluster dengan Kops](7 Kubernetes/8 Membuat Kubernetes Cluster dengan Kops 9dfb1b16855c4a46937b25f07450c85b.md)
+  * [9 Kubernetes Service](7 Kubernetes/9 Kubernetes Service d994c106be2440e593bec9f1b795f44b.md)
+  * [10 Installasi Dashboard Kubernetes](7 Kubernetes/10 Installasi Dashboard Kubernetes 00250c98fdab4691b55e2454e7ad91c7.md)
+  * [11 Konfigurasi Kubernetes](7 Kubernetes/11 Konfigurasi Kubernetes 8f0c341090bc4d359ce47fa5882748c7.md)
+  * [12 Summary](7 Kubernetes/12 Summary 960462a62e51449f923a983a1b5d9148.md)
+  * [13 Pengenalan Namespace](7 Kubernetes/13 Pengenalan Namespace 27cfd30aa3e54db09d98f8d1ac6cffc5.md)
+  * [14 Apa itu Ingress](7 Kubernetes/14 Apa itu Ingress 920539454af54910a45fa3d38d9e8103.md)
+  * [15 Kubernetes ConfigMap](7 Kubernetes/15 Kubernetes ConfigMap 542b203dda5046dfa3a8cbf3ef8e2590.md)
+  * [16 Kubernetes Secret](7 Kubernetes/16 Kubernetes Secret e75584c96ce24ecf8b5e98663fc54c9e.md)
+  * [17 HELM](7 Kubernetes/17 HELM 9759693e219640ea80c8a3fd1a4489c9.md)
+  * [18 Persistent Volume Kubernetes](7 Kubernetes/18 Persistent Volume Kubernetes 22aabcf900114f898d5876718fac470b.md)
+  * [19 Dynamic Volume Provisioning](7 Kubernetes/19 Dynamic Volume Provisioning 912132aa6b1245328130fc0305afaeec.md)

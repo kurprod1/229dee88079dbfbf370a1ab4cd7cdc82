@@ -1,6 +1,0 @@
-﻿Cloud Provider,Default StorageClass Name,Default Provisioner
-AWS,gp2,aws-ebs
-Microsoft Azure,standard,azure-disk
-Google Cloud Platform,standard,gce-pd
-OpenStack,standard,cinder
-VMware vSphere,thin,vsphere-volume

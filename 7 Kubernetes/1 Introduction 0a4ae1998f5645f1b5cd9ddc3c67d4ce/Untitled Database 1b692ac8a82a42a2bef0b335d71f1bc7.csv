@@ -1,0 +1,13 @@
+﻿No,Topic,Durasi
+1,Introduction Kubernetes,1 Pertemuan
+2,Minikube,1 Pertemuan
+3,Kubernetes Basic Command,< 1 Pekan
+4,Provisioning,1 Pekan
+5,Kubernetes Service,1 Pertemuan
+6,Konfigurasi YAML,< 1 Pekan
+7,Namespace,1 Pertemuan
+8,Ingress,1 Pertemuan
+9,ConfigMap,1 Pertemuan
+10,Secret,1 Pertemuan
+11,HELM,1 Pekan
+12,Volume,< 1 Pekan
