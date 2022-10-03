@@ -86,6 +86,7 @@
   * [2 Project For This Section](6 Containerization/2 Project For This Section e6262de7abbe4f7a8562ebaba1c7d52b.md)
   * [3 Docker](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7.md)
     * [1 Docker Introduction](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/1 Docker Introduction f469aabc9c0a46b09ccd7f6e6ce2396b.md)
+    * [Lab](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/Labs.md)
     * [2 Docker Installation](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/2 Docker Installation 3a9c3e6bdde3458eae8fd1eaf1f9b5c3.md)
     * [3 Perintah-Perintah Dasar Docker](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/3 Perintah-Perintah Dasar Docker f170f522f5b74cefa92d877bb537b9b5.md)
     * [4 Arsitektur Docker](6 Containerization/3 Docker 8c38e4021dea43dfb8ba1a5685762ed7/4 Arsitektur Docker cd20041538464d69bf7affb8078bab9a.md)
