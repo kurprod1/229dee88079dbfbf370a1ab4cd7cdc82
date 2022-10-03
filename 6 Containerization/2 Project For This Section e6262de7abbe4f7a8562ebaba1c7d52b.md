@@ -19,10 +19,7 @@ Goal dari project ini teman teman akan mengatasi masalah diatas menggunakan tekn
 Adapun beberapa requirement untuk project yang akan kalian kerjakan antara lain:
 
 1. Buat sebuah topologi untuk infrastruktur server yang akan kalian buat.
-2. Buat sebuah docker image untuk aplikasi:
-    1. Landing Page ([https://github.com/sdcilsy/landing-page](https://github.com/sdcilsy/landing-page))
-3. Buat sebuah script docker-compose untuk app:
-    1. Aplikasi sosial media Pesbuk ([https://github.com/sdcilsy/sosial-media](https://github.com/sdcilsy/sosial-media))
-    2. Untuk port dapat menyesuaikan sesuai kebutuhan 
-4. Untuk poin ke 3, pisahkan service antara web dan database.
+2. Buat sebuah Dockerfile untuk aplikasi [cilist](https://github.com/sdcilsy/cilist) untuk `database`, `backend`, dan `frontend`.
+3. Buat sebuah script docker-compose untuk app di poin 2.1 dengan Dockerfile yang sudah dibuat:
+4. Untuk poin ke 3, pisahkan service `database`, `backend`, dan `frontend`.
 5. Upload image ke Docker Hub dan script compose ke Github yang kalian miliki.

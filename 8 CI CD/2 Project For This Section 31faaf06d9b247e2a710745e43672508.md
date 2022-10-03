@@ -9,5 +9,6 @@ Untuk Mengguide teman teman peserta dalam meraih goals yang sudah di set, kami a
 # Requirement
 
 1. Buat sebuah **CICD Pipeline** menggunakan **Jenkins** pada AWS masing masing
-2. Buat sebuah pipeline yang mendeploy aplikasi [https://github.com/sdcilsy/blogx](https://github.com/sdcilsy/blogx)
-3. Deploy aplikasi tersebut ke Instance EC2
+2. Buat sebuah pipeline yang mendeploy aplikasi [cilist](https://github.com/sdcilsy/cilist)
+3. Lakukan build dengan environment containerization pada Jenkins.
+4. Deploy aplikasi tersebut ke Remote Server.

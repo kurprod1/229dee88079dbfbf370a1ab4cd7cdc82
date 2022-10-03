@@ -9,8 +9,10 @@ Untuk Mengguide teman teman peserta dalam meraih goals yang sudah di set, kami a
 # Requirement
 
 1. Buat sebuah **Cluster Kubernetes** menggunakan **eksctl** pada AWS masing masing
-2. Buat sebuah deployment aplikasi [https://github.com/sdcilsy/sosial-media](https://github.com/sdcilsy/sosial-media) dengan spesifikasi:
+2. Buat sebuah deployment aplikasi [cilist](https://github.com/sdcilsy/cilist) dengan spesifikasi:
     1. Namespace dengan nama devops-[nama peserta]
     2. ConfigMap
-    3. Secret
-3. Buatlah HELM repository untuk deployment tersebut
+    3. Deployment
+    4. Service
+    5. Ingress
+3. Untuk database, dipisah menggunakan **RDS**

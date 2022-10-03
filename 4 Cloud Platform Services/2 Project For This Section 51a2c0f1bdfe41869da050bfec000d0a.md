@@ -15,6 +15,8 @@ Untuk Mengguide teman teman peserta dalam meraih goals yang sudah di set, kami a
     2. VPC : VPC yang dibuat dipoin 1
     3. disk : 8 GB
     4. Webserver NGINX terinstall
-    5. Konten website adalah [https://github.com/sdcilsy/landing-page](https://github.com/sdcilsy/landing-page)
-3. Jalankan autoscaling ketika CPU usage diatas 70%
-4. Buat domain di **Route53** lalu pasangkan subdomain **web** ke aplikasi pada poin 2.e
+    5. Konten website adalah [https://github.com/sdcilsy/sosial-media](https://github.com/sdcilsy/sosial-media)
+3. Jalankan **autoscaling** ketika CPU usage diatas 70%
+4. Buat domain di **Route53** lalu pasangkan subdomain **web** ke aplikasi pada poin 2.5
+5. Masukan file [dump.sql](https://github.com/sdcilsy/sosial-media/blob/master/dump.sql) kedalam **S3**.
+6. Buat **RDS** sebagai database import database dari file [dump.sql](https://github.com/sdcilsy/sosial-media/blob/master/dump.sql).
