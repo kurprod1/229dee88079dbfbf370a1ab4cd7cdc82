@@ -112,6 +112,7 @@
 * [7 Kubernetes](7 Kubernetes/README.md)
   * [1 Introduction](7 Kubernetes/1 Introduction 0a4ae1998f5645f1b5cd9ddc3c67d4ce.md)
   * [2 Project For This Section](7 Kubernetes/2 Project For This Section e033bdc73e5e4db09d3a5b8b30e6be8b.md)
+  * [Lab](7 Kubernetes/Labs.md)
   * [3 Kubernetes Introduction](7 Kubernetes/3 Kubernetes Introduction 7fae0ee2c73c48d4a29251b6515787b3.md)
   * [4 Installasi Minikube](7 Kubernetes/4 Installasi Minikube 921e6dacfedc4f64b76bb945336d8ed2.md>)
   * [5 Kubernetes Basic Command](7 Kubernetes/5 Kubernetes Basic Command e646be3d4bd142a5a3072e3e69355ade.md)
