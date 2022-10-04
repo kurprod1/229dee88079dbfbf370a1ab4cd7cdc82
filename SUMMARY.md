@@ -135,6 +135,7 @@
 * [8 CI CD](8 CI CD/README.md)
   * [1 Introduction](8 CI CD/1 Introduction cef649ce5a12479a90e3fae3fd4227f7.md)
   * [2 Project For This Section](8 CI CD/2 Project For This Section 31faaf06d9b247e2a710745e43672508.md)
+  * [Labs](8 CI CD/Labs.md)
   * [3 Pengertian CI CD](8 CI CD/3 Pengertian CI CD 0709416eb462432d9763d96c0acb6c4c.md)
   * [4 Tools CI CD](8 CI CD/4 Tools CI CD 55f93779053b4fefb866ef14c6002ef2.md)
   * [5 Jenkins](8 CI CD/5 Jenkins 8163f8c4f8c44c86be2751ec18227775.md)
