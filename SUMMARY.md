@@ -75,6 +75,7 @@
 * [5 API](5 API/README.md)
   * [1 Introduction](5 API/1 Introduction df544d407a6c40f2924f54f258092210.md)
   * [2 Project For This Section](5 API/2 Project For This Section fb6d3ef654694b1b9a56b7c1824d0d1e.md)
+  * [Labs](5 API/Labs.md)
   * [3 Pengenalan API](5 API/3 Pengenalan API 0a185ca8657a496eb5af2db013904e32.md)
   * [4 API With NodeJS](5 API/4 API With NodeJS 64474894219148a4a4504d6580a79feb.md)
   * [5 Summary](5 API/5 Summary 33845f651ab94623ae90aaa20d6c6c2d.md)
